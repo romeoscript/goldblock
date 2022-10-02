@@ -192,7 +192,7 @@
                                     support employee well-being, and provide relief for the communities in which we operate.
                                 </p>
                                 
-                                <a href="covid-19.html" class="mt-3 btn btn-custom">Read More <i class="fas fa-arrow-right text-white"></i></a>
+                                <a href="{{route('client')}}" class="mt-3 btn btn-custom">Read More <i class="fas fa-arrow-right text-white"></i></a>
                             </div>
                         </div>
                 </div>

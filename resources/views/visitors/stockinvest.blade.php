@@ -10,7 +10,7 @@
     <div class="auto-container">
         <div class="content-box clearfix">
             <ul class="bread-crumb clearfix">
-                <li><a href="index-2.html">{{ $compd ? $compd->companyname : 'company name' }}</a></li>
+                <li><a href="/">{{ $compd ? $compd->companyname : 'company name' }}</a></li>
             </ul>
             <h1>Real Estate</h1>                
         </div>

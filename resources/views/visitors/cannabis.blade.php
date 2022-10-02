@@ -8,7 +8,7 @@
         <div class="auto-container">
             <div class="content-box clearfix">
                 <ul class="bread-crumb clearfix">
-                    <li><a href="index-2.html">{{ $compd ? $compd->companyname : 'company name' }}</a></li>
+                    <li><a href="/">{{ $compd ? $compd->companyname : 'company name' }}</a></li>
                 </ul>
                 <h1>Cannabis Investments</h1>                
             </div>
@@ -74,7 +74,7 @@
                     <div class="service-sidebar">
                         <div class="sidebar-categories">
                             <ul class="categories-list clearfix">
-                                <li><a href="services2d2b.html?d=1" class="">Retirement Planning</a></li>
+                                <li><a href="{{route('services')}}" class="">Retirement Planning</a></li>
                                         <li><a href="{{route('realestate')}}">Real Estate & Investment Management</a></li>
                                         <li><a href="{{route('cannabis')}}" class="active">Cannabis Investments</a></li>
                                         <li><a href="{{route('cryptoplans')}}" class="">Cryptocurrency Trading</a></li>

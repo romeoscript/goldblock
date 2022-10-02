@@ -3,119 +3,119 @@
 /** color-file **/
 
 .theme-btn.style-one{
-  background: #ff7800;
+  background: steelblue;
 }
 
 .main-header.style-one .header-top .top-left li i{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .main-header.style-one .header-top .top-left li a:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .main-header.style-one .header-top .top-right li a:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .main-header.style-one .header-lower .menu-right-content .nav-btn:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .main-header.style-one .header-lower .menu-right-content .search-btn button:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .search-popup .search-form fieldset input[type="submit"]{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .search-popup .recent-searches li a:hover{
-	color: #ff7800;
-	border-color: #ff7800;
+	color: steelblue;
+	border-color: steelblue;
 }
 
 .preloader-close{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .main-menu .navigation > li > ul > li > a:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .main-menu .navigation > li > ul > li > ul > li > a:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .main-menu .navigation li.dropdown .megamenu li a:hover{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .side-menu .navigation li.current{
-  border-color: #ff7800;
+  border-color: steelblue;
 }
 
 .side-menu .navigation li.current.dropdown .dropdown-btn:before{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .sidebar-info-contents .content-inner .info-box h3:before{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .sidebar-info-contents .content-inner .info-box .subscribe-form .form-group input:focus{
-	border-color: #ff7800 !important;
+	border-color: steelblue !important;
 }
 
 .sidebar-info-contents .content-inner .info-box .social-links li a:hover{
-  	color: #ff7800;
+  	color: steelblue;
 }
 
 .sidebar-info-contents .content-inner .info-box .info-list li a:hover{
-  	color: #ff7800;
+  	color: steelblue;
 }
 
 .banner-section .owl-theme .owl-nav .owl-prev:hover,
 .banner-section .owl-theme .owl-nav .owl-next:hover{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .info-section .title-inner .year-box h2{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .sticky-header .main-menu .navigation > li.current > a,
 .sticky-header .main-menu .navigation > li:hover > a{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .info-section .title-inner .title h2 span{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .info-section .text-column .text a i{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .info-section .text-column .text a:hover span{
-	color: #ff7800;
-	border-color: #ff7800;
+	color: steelblue;
+	border-color: steelblue;
 }
 
 .feature-block-one .inner-box .lower-content .inner:before{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .about-section .video-inner .video-btn a:before{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .sec-title h5:before{
-	background: #ff7800;
+	background: steelblue;
 }
 
 #content_block_one .content-box .inner-box .single-item h4 a:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 #content_block_one .content-box .inner-box .single-item .icon-box i{
@@ -127,36 +127,36 @@
 }
 
 .service-block-one .inner-box .inner a i{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .service-block-one .inner-box .inner a:hover span{
-	color: #ff7800;
-	border-color: #ff7800;
+	color: steelblue;
+	border-color: steelblue;
 }
 
 .service-block-one .inner-box h4 a:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .project-block-one .inner-box .lower-content p:before{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .project-block-one .inner-box .lower-content h2 a:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 #image_block_one .image-box .award-box .box{
-	background: -webkit-linear-gradient(-90deg, #ff7800, #224669 100%);
+	background: -webkit-linear-gradient(-90deg, steelblue, #224669 100%);
 }
 
 .sec-title.centred h5:after{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .world-cyber .office-location .location-area .location-box:before{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .world-cyber .office-location .location-area .location-box:hover:before{
@@ -169,7 +169,7 @@
 
 .support-section .inner-container .inner-box .submit-form .form-group input:focus,
 .support-section .inner-container .inner-box .submit-form .form-group textarea:focus{
-   border-color: #ff7800 !important;
+   border-color: steelblue !important;
 }
 
 .support-section .inner-container .info-inner .info-box{
@@ -178,64 +178,64 @@
 
 .testimonial-section .client-thumb-outer .owl-theme .owl-dots .owl-dot.active span,
 .testimonial-section .client-thumb-outer .owl-theme .owl-dots .owl-dot span:hover{
-  background: #ff7800;
+  background: steelblue;
 }
 
 .news-block-one .inner-box .lower-content .post-info li a:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .news-block-one .inner-box .lower-content .post-info li.share a{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .news-block-one .inner-box .lower-content .post-info li.share:hover .social-links li a:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .news-block-one .inner-box .lower-content h3 a:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .news-block-one .inner-box .lower-content .link a i{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .news-block-one .inner-box .lower-content .link a:hover span{
-	color: #ff7800;
-	border-color: #ff7800;
+	color: steelblue;
+	border-color: steelblue;
 }
 
 .cta-section{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .cta-section .btn-box a:hover{
-	color: #ff7800;
+	color: steelblue;
 }
   
 .main-footer .widget-section .logo-widget .info-list li a:hover{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .main-footer .widget-section .logo-widget .info-list li i{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .main-footer .widget-section .logo-widget .social-links li a:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .main-footer .widget-section .footer-widget .widget-title h4:before{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .main-footer .widget-section .links-widget .widget-content ul li a:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .main-footer .widget-section .newsletter-widget .newsletter-form .form-group input:focus{
-  border-color: #ff7800 !important;
+  border-color: steelblue !important;
 }
 
 .main-header.style-two .header-top .info li a:hover{
@@ -260,7 +260,7 @@
 
 .main-header.style-one .sticky-header .main-menu .navigation > li.current > a,
 .main-header.style-one .sticky-header .main-menu .navigation > li:hover > a{
-  color: #ff7800 !important;
+  color: steelblue !important;
 }
 
 .main-header.style-two .sticky-header .main-menu .navigation > li.current > a,
@@ -629,7 +629,7 @@
 }
 
 .pricing-block-one .pricing-table .table-header .price-box span{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .pricing-block-one .pricing-table .table-footer a{
@@ -902,7 +902,7 @@
 }
 
 .feature-block-four .inner-box:before{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .about-style-four #content_block_13 .content-box .progress-content .progress-box .bar-inner{
@@ -918,7 +918,7 @@
 }
 
 .about-style-four #content_block_13 .content-box .progress-content .progress-box:last-child .bar-inner{
-  background: #ff7800;
+  background: steelblue;
 }
 
 .about-style-four #content_block_13 .content-box .progress-content .progress-box .count-text{
@@ -934,20 +934,20 @@
 }
 
 .about-style-four #content_block_13 .content-box .progress-content .progress-box:last-child .count-text{
-  	color: #ff7800;
+  	color: steelblue;
 }
 
 .service-style-five .tabs-box .tab-btn-box .tab-btns li.active-btn i,
 .service-style-five .tabs-box .tab-btn-box .tab-btns li:hover i{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .service-style-five .tabs-box .tab-btn-box .tab-btns li:before{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .service-style-five .tabs-content .content-box ul li:before{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .project-block-three .inner-box .lower-content .inner span{
@@ -956,39 +956,39 @@
 }
 
 .project-block-three .inner-box .lower-content .inner a i{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .project-block-three .inner-box .lower-content .inner a:hover span{
-	color: #ff7800;
-	border-color: #ff7800;
+	color: steelblue;
+	border-color: steelblue;
 }
 
 .project-style-four .owl-theme .owl-dots .owl-dot.active span,
 .project-style-four .owl-theme .owl-dots .owl-dot span:hover{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .project-style-four .title-inner .btn-box a{
-	border: 2px solid #ff7800;
+	border: 2px solid steelblue;
 }
 
 .project-style-four .title-inner .btn-box a:before{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .project-style-four .title-inner .btn-box a:after{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .video-section .inner-box .video-btn a{
-	border: 4px solid #ff7800;
-	color: #ff7800;
+	border: 4px solid steelblue;
+	color: steelblue;
 }
 
 .working-block-two .inner-box .icon-box{
 	border: 30px solid #ffcdd4;
-	color: #ff7800;
+	color: steelblue;
 }
 
 .working-style-two .working-block:nth-child(2) .working-block-two .inner-box .icon-box{
@@ -1002,62 +1002,62 @@
 }
 
 .working-block-two .inner-box h3 a:hover{
-  	color: #ff7800;
+  	color: steelblue;
 }
 
 .testimonial-style-two.alterner-2 .sec-title.centred h5:after{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .testimonial-style-two.alterner-2 .owl-dot-style-one .owl-dots .owl-dot.active span, 
 .testimonial-style-two.alterner-2 .owl-dot-style-one .owl-dots .owl-dot span:hover {
-    background: #ff7800;
+    background: steelblue;
 }
 
 .news-style-three.alterner-2 .title-inner .btn-box a{
-	border: 2px solid #ff7800;
+	border: 2px solid steelblue;
 }
 
 .news-style-three.alterner-2 .title-inner .btn-box a:before{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .news-style-three.alterner-2 .title-inner .btn-box a:after{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .news-style-three.alterner-2 .news-block-two .inner-box .lower-content .link a i{
-   color: #ff7800;
+   color: steelblue;
 }
 
 .news-style-three.alterner-2 .news-block-two .inner-box .lower-content .link a:hover span{
-	color: #ff7800;
-	border-color: #ff7800;
+	color: steelblue;
+	border-color: steelblue;
 }
 
 .news-style-three.alterner-2 .news-block-one .inner-box .lower-content .post-info li a:hover {
-  color: #ff7800;
+  color: steelblue;
 }
 
 .news-style-three.alterner-2 .news-block-one .inner-box .lower-content h3 a:hover {
-	color: #ff7800;
+	color: steelblue;
 }
 
 .news-style-three.alterner-2 .news-block-one .inner-box .lower-content .link a i{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .news-style-three.alterner-2 .news-block-one .inner-box .lower-content .link a:hover span{
-	color: #ff7800;
-	border-color: #ff7800;
+	color: steelblue;
+	border-color: steelblue;
 }
 
 .news-style-three.alterner-2 .news-block-two .inner-box .lower-content .post-info li a:hover {
-  color: #ff7800;
+  color: steelblue;
 }
 
 .news-style-three.alterner-2 .news-block-two .inner-box .lower-content h3 a:hover {
-    color: #ff7800;
+    color: steelblue;
 }
 
 .working-block-one .inner-box .count:before{
@@ -1116,96 +1116,96 @@
 
 .main-header.style-six .main-menu .navigation > li.current > a, 
 .main-header.style-six .main-menu .navigation > li:hover > a {
-    color: #ff7800;
+    color: steelblue;
 }
 
 .page-title .content-box .bread-crumb li a:hover{
-   color: #ff7800;
+   color: steelblue;
 }
 
 .about-style-two #content_block_three .tabs-box .tab-btn-box .tab-btns li:before{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .about-style-two #content_block_three .tabs-box .tabs-content .content-inner a i{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .about-style-two #content_block_three .tabs-box .tabs-content .content-inner a:hover span{
-  color: #ff7800;
-  border-color: #ff7800;
+  color: steelblue;
+  border-color: steelblue;
 }
 
 .about-style-two.about-page-1 #image_block_two .image-box .content-box{
-  border-color: #ff7800;
+  border-color: steelblue;
 }
 
 .about-style-two.about-page-1 #image_block_two .image-box .content-box h5 a{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .video-section.about-page-1 .inner-box .video-btn:before, 
 .video-section.about-page-1 .inner-box .video-btn:after{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .team-section.about-page-1 .team-block-one .inner-box .lower-content h3 a:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .team-section.about-page-1 .team-block-one .inner-box .lower-content .ovellay-box .social-links li a:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .team-section.about-page-1 .owl-dot-style-one .owl-dots .owl-dot.active span, 
 .team-section.about-page-1 .owl-dot-style-one .owl-dots .owl-dot span:hover{
-  background: #ff7800;
+  background: steelblue;
 }
 
 .testimonial-style-two.about-page-2 .sec-title.centred h5:before, 
 .testimonial-style-two.about-page-2 .sec-title.centred h5:after{
-  background: #ff7800;
+  background: steelblue;
 }
 
 .team-section.team-page .team-block-one .inner-box .lower-content h3 a:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .team-section.team-page .team-block-one .inner-box .lower-content .ovellay-box .social-links li a:hover{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .team-block-three .inner-box .image-box .bg-box-1{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .team-block-three .inner-box .image-box .bg-box-2{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .team-block-three .inner-box .lower-content h3 a:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .team-block-three .inner-box .lower-content:before{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .pricing-section.pricing-page .tab-btn-box .tab-btns li.active-btn, 
 .pricing-section.pricing-page .tab-btn-box .tab-btns li:hover{
-  background: #ff7800;
+  background: steelblue;
 }
 
 .pricing-section.pricing-page .pricing-table .table-footer a{
-	border-color: #ff7800;
+	border-color: steelblue;
 }
 
 .pricing-section.pricing-page .pricing-table .table-footer a:before{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .pricing-section.pricing-page .pricing-table .table-footer a:after{
-	background: #ff7800;
+	background: steelblue;
 }
   
 .pricing-section.pricing-page .pricing-table .table-header .price-box {
@@ -1213,7 +1213,7 @@
 }
 
 .error-section .content-box h1{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .working-style-two.service-page-1 .working-block-two .inner-box .icon-box{
@@ -1223,7 +1223,7 @@
 
 .working-style-two.service-page-1 .working-block:nth-child(2) .working-block-two .inner-box .icon-box{
     border-color: #ffcdd4;
-    color: #ff7800;
+    color: steelblue;
 }
 
 .working-style-two.service-page-1 .working-block:last-child .working-block-two .inner-box .icon-box{
@@ -1240,41 +1240,41 @@
 }
 
 .service-style-three.service-page-2 .service-block-three .inner-box .lower-content h3 a:hover{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .service-style-three.service-page-2 .service-block-three .inner-box .lower-content .link a i{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .service-style-three.service-page-2 .service-block-three .inner-box .lower-content .link a:hover span{
-  	color: #ff7800;
-  	border-color: #ff7800;
+  	color: steelblue;
+  	border-color: steelblue;
 }
 
 .service-style-three.service-page-2 .service-block-three .inner-box:before{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .contact-section.service-page-2 #content_block_nine .content-box .form-inner .form-group button{
-  	background: #ff7800;
+  	background: steelblue;
 }
 
 .contact-section.service-page-2 #content_block_nine .content-box .form-inner .form-group input:focus, 
 .contact-section.service-page-2 #content_block_nine .content-box .form-inner .form-group textarea:focus{
-  	border-color: #ff7800 !important;
+  	border-color: steelblue !important;
 }
 
 .pricing-section.service-page-2 .pricing-block-one .pricing-table .table-footer a{
- 	border-color: #ff7800; 
+ 	border-color: steelblue; 
 }
 
 .pricing-section.service-page-2 .pricing-block-one .pricing-table .table-footer a:before{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .pricing-section.service-page-2 .pricing-block-one .pricing-table .table-footer a:after{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .pricing-section.service-page-2 .pricing-block-one .pricing-table .table-header .price-box {
@@ -1282,20 +1282,20 @@
 }
 
 .service-details-content .content-style-one .list-item li:before{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .service-details .service-sidebar .sidebar-categories ul li a:before{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .service-details .service-sidebar .sidebar-testimonial .owl-theme .owl-dots .owl-dot.active span,
 .service-details .service-sidebar .sidebar-testimonial .owl-theme .owl-dots .owl-dot span:hover{
-  background: #ff7800;
+  background: steelblue;
 }
 
 .service-details .service-sidebar .sidebar-title h3:before{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .service-details .service-sidebar .sidebar-info .info-list li i{
@@ -1303,23 +1303,23 @@
 }
 
 .service-details .service-sidebar .sidebar-info .info-list li a:hover{
-  	color: #ff7800;
+  	color: steelblue;
 }
 
 .service-details .service-sidebar .sidebar-info .social-links li a:hover{
-  	color: #ff7800;
+  	color: steelblue;
 }
 
 .service-details .service-sidebar .download-option .download-file li a i{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .service-details .service-sidebar .download-option .download-file li a:hover{
-  	color: #ff7800;
+  	color: steelblue;
 }
 
 .scroll-top{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .scroll-top.style-two{
@@ -1339,145 +1339,145 @@
 }
 
 .page-title.style-two:before{
-  background: #ff7800;
+  background: steelblue;
 }
 
 .blog-grid .more-btn a{
-	border: 2px solid #ff7800;
+	border: 2px solid steelblue;
 }
 
 .blog-grid .more-btn a:before{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .blog-grid .more-btn a:after{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .news-block-three .inner-box .image-box .category{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .news-block-three .inner-box .lower-content .post-info li a:hover{
- 	color: #ff7800;
+ 	color: steelblue;
 }
 
 .news-block-three .inner-box .lower-content h2 a:hover{
-  	color: #ff7800;
+  	color: steelblue;
 }
 
 .news-block-three .inner-box .lower-content .link a i{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .news-block-three .inner-box .lower-content .link a:hover span{
-	color: #ff7800;
-	border-color: #ff7800;
+	color: steelblue;
+	border-color: steelblue;
 }
 
 .blog-classic-content .news-carousel .owl-prev:hover,
 .blog-classic-content .news-carousel .owl-next:hover{
- 	background: #ff7800;
+ 	background: steelblue;
 }
 
 .news-block-three .inner-box .lower-content .category{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .news-block-four .inner-box .content-box .category{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .news-block-four .inner-box .content-box .box h2 a:hover{
-  	color: #ff7800;
+  	color: steelblue;
 }
 
 .news-block-four .inner-box .content-box .box .post-info li a:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .pagination li a:hover,
 .pagination li a.active{
-  background: #ff7800;
-  border-color: #ff7800;
+  background: steelblue;
+  border-color: steelblue;
 }
 
 .sidebar-page-container .sidebar .sidebar-search .form-group input:focus + button,
 .sidebar-page-container .sidebar .sidebar-search .form-group button:hover{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .sidebar-page-container .sidebar .sidebar-search .form-group input:focus{
-  border-color: #ff7800 !important;
+  border-color: steelblue !important;
 }
 
 .sidebar-page-container .sidebar .widget-title h3:before{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .sidebar-page-container .sidebar .sidebar-categories .categories-list li a:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .sidebar-page-container .sidebar .sidebar-post .widget-content .post .post-thumb{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .sidebar-page-container .sidebar .sidebar-post .widget-content .post h6 a:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .sidebar-page-container .sidebar .sidebar-post .widget-content .post .post-date i{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .sidebar-page-container .sidebar .sidebar-gallery .image-list li{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .blog-details-content .inner-box .post-info li a:hover{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .blog-details-content .image-box .category{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .blog-details-content .inner-box .text p span{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .blog-details-content .inner-box .text blockquote{
-	border-left: 5px solid #ff7800;
+	border-left: 5px solid steelblue;
 }
 
 .blog-details-content .post-share-option .post-share li i{
-  color: #ff7800;
+  color: steelblue;
 }
 
 .blog-details-content .post-share-option .post-share li.share .social-links li a:hover i{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .blog-details-content .group-title h2:before{
-	background: #ff7800;
+	background: steelblue;
 }
 
 .blog-details-content .comments-area .comment .comment-inner .comment-info .info a:hover{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .blog-details-content .comments-area .comment .comment-inner .comment-info .info a i{
-	color: #ff7800;
+	color: steelblue;
 }
 
 .blog-details-content .comments-form-area .form-group input:focus,
 .blog-details-content .comments-form-area .form-group textarea:focus{
-  border-color: #ff7800 !important;
+  border-color: steelblue !important;
 }
 
 .rtl .blog-details-content .inner-box .text blockquote{
-  border-right: 5px solid #ff7800;
+  border-right: 5px solid steelblue;
 }
 
 .contact-information .single-item .inner-box .icon-box i{
@@ -1489,20 +1489,20 @@
 }
 
 .contact-information .single-item .inner-box p a:hover{
- 	color: #ff7800; 
+ 	color: steelblue; 
 }
 
 .funfact-style-four.contact-page .counter-block-four .count-outer{
-  	color: #ff7800; 
+  	color: steelblue; 
 }
 
 .contact-style-two .default-form .form-group input:focus,
 .contact-style-two .default-form .form-group textarea:focus{
-  border-color: #ff7800 !important;
+  border-color: steelblue !important;
 }
 
 .banner-carousel .content-box .btn-box .banner-btn-two:hover{
- 	color: #ff7800; 
+ 	color: steelblue; 
 }
 
 .banner-section.style-four .content-box .btn-box .banner-btn-two:hover{
@@ -1510,8 +1510,8 @@
 }
 
 .banner-section.style-five .banner-carousel .content-box .btn-box .user-btn i{
-	background: #ff7800;
-	border-color: #ff7800;
+	background: steelblue;
+	border-color: steelblue;
 }
 
 .intro-section .upper-content .single-column:after{

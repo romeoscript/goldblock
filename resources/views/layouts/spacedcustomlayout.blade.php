@@ -34,11 +34,11 @@
     <style>
         .btn-custom {
             color: #fff;
-            background-color: #ff7800;
+            background-color: steelblue;
         }
 
         .text-custom {
-            color: #ff7800 !important;
+            color: steelblue !important;
         }
 
         .mbt-1 {
@@ -216,7 +216,7 @@
             bottom: 0;
             margin-top: -35px;
             margin-left: -35px;
-            border: 5px solid #ff7800;
+            border: 5px solid steelblue;
             border-radius: 50%;
             border-top: 5px solid #1c1e2f;
             width: 70px;
@@ -279,7 +279,7 @@
             <div class="auto-container">
                 <div class="outer-box clearfix">
                     <div class="logo-box pull-left">
-                        <figure class="logo"><a href="index-2.html"><img src="images/logo.png"
+                        <figure class="logo"><a href="/"><img src="images/logo.png"
                                     style="height: 38px; width: auto;" alt="" title=""></a></figure>
                     </div>
                     <div class="menu-area pull-right">
@@ -342,7 +342,7 @@
             <div class="auto-container">
                 <div class="outer-box clearfix">
                     <div class="logo-box pull-left">
-                        <figure class="logo"><a href="index-2.html"><img src="images/logo-b.png"
+                        <figure class="logo"><a href="/"><img src="images/logo-b.png"
                                     style="height: 38px; width: auto;" alt="" title=""></a></figure>
                     </div>
                     <div class="menu-area pull-right">
@@ -360,7 +360,7 @@
         <div class="close-btn"><i class="fas fa-times"></i></div>
 
         <nav class="menu-box">
-            <div class="nav-logo"><a href="index-2.html"><img src="images/logo.png"
+            <div class="nav-logo"><a href="/"><img src="images/logo.png"
                         style="height: 60px; width: auto;" alt="" title=""></a></div>
             <div class="menu-outer">
                 <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -396,7 +396,7 @@
                     <div class="row clearfix">
                         <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div class="footer-widget logo-widget">
-                                <figure class="footer-logo"><a href="index-2.html"><img src="images/logo.png"
+                                <figure class="footer-logo"><a href="/"><img src="images/logo.png"
                                             style="height: 40px; width: auto;" alt=""></a></figure>
 
                                 <ul class="info-list clearfix">
@@ -421,10 +421,10 @@
                                     <ul class="list clearfix">
                                         <li><a href="{{ route('register') }}">Create Account</a></li>
                                         <li><a href="{{ route('login') }}">Login</a></li>
-                                        <li><a href="user/password.html">Forgot Password</a></li>
-                                        <li><a href="terms.html">Terms of Use</a></li>
-                                        <li><a href="legal.html">Legal</a></li>
-                                        <li><a href="privacy.html">Privacy Policy</a></li>
+                                        
+                                        <li><a href="{{route('terms')}}">Terms of Use</a></li>
+                                        <li><a href="{{route('legal')}}">Legal</a></li>
+                                        <li><a href="{{route('policy')}}">Privacy Policy</a></li>
                                     </ul>
                                 </div>
 
@@ -438,7 +438,7 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="list clearfix">
-                                        <li><a href="services2d2b.html?d=1">Retirement Planning</a></li>
+                                        <li><a href="{{route('services')}}">Retirement Planning</a></li>
                                         <li><a href="{{route('realestate')}}">Real Estate & Investment Management</a></li>
                                         <li><a href="{{route('cannabis')}}">Cannabis Investments</a></li>
                                         <li><a href="{{route('cryptoplans')}}">Cryptocurrency Trading</a></li>
@@ -457,7 +457,7 @@
                                 <div class="widget-content">
                                     <ul class="list clearfix">
                                         <li><a href="{{ route('about') }}">About Us</a></li>
-                                        <li><a href="service.html">What We Offers</a></li>
+                                        {{-- <li><a href="service.html">What We Offers</a></li> --}}
                                         <li><a href=" {{route('faq')}}">FAQ's</a></li>
                                         <li><a href="{{ route('login') }}">Our Plans</a></li>
                                         <li><a href="{{ route('contact') }}">Contact Us</a></li>
@@ -537,7 +537,7 @@
         <div class="footer-bottom">
             <div class="auto-container">
                 <div class="copyright">
-                    <p>&copy; 2017 - 2022 <a href="index-2.html">{{ $compd ? $compd->companyname : 'company name' }}</a> . All rights reserved.</p>
+                    <p>&copy; 2017 - 2022 <a href="/">{{ $compd ? $compd->companyname : 'company name' }}</a> . All rights reserved.</p>
                 </div>
             </div>
         </div>

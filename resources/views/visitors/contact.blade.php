@@ -8,7 +8,7 @@
   <div class="auto-container">
       <div class="content-box clearfix">
           <ul class="bread-crumb clearfix">
-              <li><a href="index-2.html">Send Us A Message</a></li>
+              <li><a href="/">Send Us A Message</a></li>
           </ul>
           <h1>Get Support</h1>                
       </div>

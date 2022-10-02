@@ -2,92 +2,142 @@
 
 @section("body")
 
-<section class="banner-section">
-    <div class="img-container">
-    <!--    <img src="{{asset("images/privacy-banner-img.jpg")}}" alt="banner image"> -->
-    </div>
-    <div class="banner-overlay">
-
-    </div>
-    <div class="bread-crumb">
-        <nav>
-            <ul>
-                <li><a href="{{route('index')}}">Go to home</a></li>
-                <li><a href="#">Privacy Policy</a></li>
+<!-- START SECTION BANNER -->
+<section class="page-title centred" style="background-image: url(assets/images/background/page-title.jpg);">
+    <div class="auto-container">
+        <div class="content-box clearfix">
+            <ul class="bread-crumb clearfix">
+                <li><a href="/">{{ $compd ? $compd->companyname : 'company name' }}</a></li>
             </ul>
-        </nav>
+            <h1>Terms of Use</h1>                
+        </div>
+    </div>
+</section>
+<div class="about_content">
+<div class="container">
+<div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="service-details-wrap">
+                    <div class="services-detail-content mt-4">
+                        <h2 class="mb-2 h3-font font-w--700">Terms of Use</h2>
+                        <p>These rules are official and the public offer of {{ $compd ? $compd->companyname : 'company name' }}, acting in accordance with the Company, on the one hand,
+                            and the individual investor. This is equivalent to the conclusion of the Agreement in accordance with international
+                            law. These rules shall enter into force on the date of registration of the Investor on the website of the program
+                            {{ $compd ? $compd->companyname : 'company name' }} and his acceptance of the terms and conditions. If you disagree with these terms and conditions or any 
+                            part of these terms and conditions, you must not use this website. Any individual or company from any country may 
+                            open an account on the website. You must be at least 18 years of age to use this website. You agree that all 
+                            information, communications, materials coming from {{ $compd ? $compd->companyname : 'company name' }} are unsolicited and must be kept private, 
+                            confidential and protected from any disclosure. Moreover, the information, communications and materials 
+                            contained herein are not to be regarded as an offer, nor a solicitation for investments in any jurisdiction which 
+                            deems non-public offers or solicitations unlawful, nor to any person to whom it will be unlawful to make such offer 
+                            or solicitation. You agree that all information, interactions, materials coming from {{ $compd ? $compd->companyname : 'company name' }} are unsolicited and
+                            must be kept private, confidential and protected from any disclosure. Besides, the information, interactions and 
+                            materials present herein are not to be regarded as an offer, nor a solicitation for investments in any jurisdiction 
+                            which deems non-public offers or solicitations unlawful, nor to any person to whom it will be unlawful to make such 
+                            offer or solicitation. You must register as a Member to access certain functions of the Website. You are obliged to 
+                            provide only complete and accurate information about yourself when registering as a Member or updating your 
+                            Registration Data. You agree to maintain and keep your Registration Data current and to update the Registration 
+                            Data as soon as it changes. You are responsible for maintaining the security of your password. Our Company and its 
+                            service providers are not liable for any loss that you may suffer through the use of your password by others. 
+                            Each Investor can register only one personal account, re-registration is not allowed. In case of multiple 
+                            registrations, the Company reserves the right to disable all accounts to ascertain the circumstances. Each 
+                            deposit is considered to be a private transaction between {{ $compd ? $compd->companyname : 'company name' }} and its Member. Members perform all 
+                            financial transactions solely at their own discretion and their own risk. The Investor personally decides 
+                            whether or not to invest and how much to invest. All accruals in the Personal Account are made according to 
+                            the chosen investment package. The Investor has the right to freely dispose of the funds that are on his personal 
+                            account. The Investor can make a deposit with only help of electronic payment systems used by the Company. 
+                            The interest rate depends on the selected investment package while each investment package allows for investing 
+                            different amounts. You may choose any of the following e-currencies to make deposit: Bitcoin, Ethereum, Bitcoin 
+                            Cash, Dash, Payeer, Perfect Money, Ripple and Litecoin. A deposit may only be made in US dollars. All accruals 
+                            of profit are done automatically and in accordance with chosen investment plan. Depending on the amount of your
+                            deposit and the term of chosen investment period, you will receive guaranteed income after a certain period of 
+                            time. Your earnings is depending from your investment plan and can be in Daily basis or at the end of investment 
+                            term. If you choose Daily plans you will get your initial capital back at the end of investment term. 
+                            The withdrawal time can take up to 48 hours. You may use, reproduce and share any links to any page of this 
+                            Website. You should use Your individual referral link to take part in the affiliate program. The affiliate 
+                            program is a way to get extra earnings for referring other people to the products and services offered through 
+                            this Website. You do not have to make a deposit or have an active investment to get affiliate bonuses. Clients 
+                            are not allowed to send SPAM or any kind of unsolicited commercial e-mail to promote the Company, its products 
+                            and services. Our affiliate rewards program offers earning at four levels and pays 10% of the deposits made by
+                            your first-line referrals, 3% of the deposits made by you second-line referrals (the people invited by your 
+                            first-line referrals), 2% of the deposits of your third-line referrals (the people invited by your second-line 
+                            referrals) and 1% of the deposits of your fourth-line referrals (the people invited by your third-line referrals)
+                            If you do not agree with the above disclaimer, please do not go any further.</p>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+</div>
+<!-- END SECTION BLOG -->
+<!--section class="clients-section">
+    <div class="auto-container">
+        <div class="clients-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
+            <figure class="client-logo"><a href="index.html"><img src="assets/images/clients/clients-1.png" alt=""></a></figure>
+            <figure class="client-logo"><a href="index.html"><img src="assets/images/clients/clients-2.png" alt=""></a></figure>
+            <figure class="client-logo"><a href="index.html"><img src="assets/images/clients/clients-3.png" alt=""></a></figure>
+            <figure class="client-logo"><a href="index.html"><img src="assets/images/clients/clients-4.png" alt=""></a></figure>
+            <figure class="client-logo"><a href="index.html"><img src="assets/images/clients/clients-5.png" alt=""></a></figure>
+        </div>
+    </div>
+</section-->
+
+<section class="cta-section">
+    <div class="auto-container">
+        <div class="inner-container clearfix">
+            <div class="title pull-left">
+                <h2>Open account for free and start investing!</h2>
+            </div>
+            <div class="btn-box pull-right">
+                <a href="{{route('register')}}">Get Started</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- cta-section end -->
+
+
+<!-- fun-fact -->
+<section class="fun-fact centred">
+    <div class="auto-container">
+        <div class="row clearfix">
+            <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+                <div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <div class="count-outer count-box" style="font-size: 35px;">
+                        <span class="count-text" data-speed="1500" data-stop="100253">0</span>
+                    </div>
+                    <p>Active Users</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+                <div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <div class="count-outer count-box" style="font-size: 35px;">
+                        <span class="count-text" data-speed="1500" data-stop="1338">0</span>
+                    </div>
+                    <p>Running Days</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+                <div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <div class="count-outer count-box" style="font-size: 35px;">
+                        <img src="images/coins/usdt.html" style="width: 30px; height: auto;" alt=""> USDT <span class="count-text" data-speed="1500" data-stop="300021142.336">0</span>
+                    </div>
+                    <p>DEPOSIT</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+                <div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <div class="count-outer count-box" style="font-size: 35px;">
+                        <img src="images/coins/usdt.html" style="width: 30px; height: auto;" alt=""> USDT <span class="count-text" data-speed="1500" data-stop="303452266721.39">0</span>
+                    </div>
+                    <p>WITHDRAWALS</p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
-<main class="policy-contents aboutus-page">
-<!-- contents of the page -->
-<section>
-    <h1>our privacy policy</h1>
-    <div class="paragraph">
-        <h4>your privacy is critically important to us.</h4>
-        <p>
-            It is {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management's policy to respect your privacy regarding any information we may collect while operating our website. We respect your privacy and are committed to protecting personally identifiable information you may provide us through the Website. We have adopted this privacy policy to explain what information may be collected on our Website, how we use this information, and under what circumstances we may disclose the information to third parties. This Privacy Policy applies only to information we collect through the Website and does not apply to our collection of information from other sources
-        </p>
-        <p>
-            This Privacy Policy, together with the Terms and conditions posted on our Website, set forth the general rules and policies governing your use of our Website. Depending on your activities when visiting our Website, you may be required to agree to additional terms and conditions.
-        </p>
-    </div>
-    <div class="paragraph">
-        <h4>website visitors</h4>
-        <p>
-            Like most website operators, {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management's purpose in collecting non-personally identifying information is to better understand how {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management's visitors use its website. From time to time, {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management may release non-personally identifying information in the aggregate, e.g. by publishing a report on trends in the usage of its website.
-        </p>
-        <p>
-            {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management also collects potentially personally identifying information like Internet Protocol (IP) addresses for logged in users. {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management only discloses logged in user addresses under the same circumstances that it uses and discloses personally identifying information as described below.
-        </p>
-    </div>
-    <div class="paragraph">
-        <h4>Gathering of Personally Identifying Information</h4>
-        <p>
-            Certain visitors to {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management's websites choose to interact with {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management in ways that require {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management to gather personally identifying information. The amount and type of information that {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management gathers depends on the nature of the interaction.
-        </p>
-    </div>
-    <div class="paragraph">
-        <h4>security</h4>
-        <p>
-            Ads appearing on our website may be delivered to users by advertising partners, who may set cookies. These cookies allow the ad server to recognize your computer each time they send you an online advertisement to compile information about you or others who use your computer. This information allows ad networks to, among other things, deliver targeted advertisements that they believe will be of most interest to you. This Privacy Policy covers the use of cookies by {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management and does not cover the use of cookies by any advertisers.
-        </p>
-    </div>
-    <div class="paragraph">
-        <h2>business conduct and ethics</h2>
-        <p>
-            {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management aims to realize opportunities for our clients, shareholders and people while meeting expectations of sound corporate governance. We are in business to be profitable, but it is the way we do business that defines us. {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management’s high standards for conduct are underpinned by What We Stand For, and our long-held principles of Opportunity, Accountability and Integrity. We are committed to conducting our business in accordance with all applicable laws and regulations and in a way that enhances our reputation in the market. We are committed to ensuring our products and services are marketed appropriately and that clients are fairly treated. Business conduct and ethics are addressed within our existing risk management framework by establishing and maintaining an effective risk culture that drives good conduct. This is supported by a framework of policies, controls, processes and reporting mechanisms, in particular to manage compliance, legal, reputation and operational risks. {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management owns significant stakes in leading, high-quality, global companies. Through board participation, we work for continuous improvement of the performance of our companies. With our industrial experience, broad network and financial strength, we strive to make and keep our companies best-in-class. We always look at the opportunities and challenges facing each individual company. Our cash flow allows us to financially support strategic initiatives in our companies, capture investment opportunities and provide our clients with a steadily rising profit.
-        </p>
-    </div>
-    <div class="paragraph">
-        <h3>investor relations</h3>
-        <p>
-            We see building strong and lasting relationships as an essential component of our growth. Both in relationships with our clients, partners, or acquisitions; we ensure all business transactions are carried out on the foundation of goodwill and a healthy business environment. This statement is a core cultural belief and a fundamental element of the success of {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management. Members of our community tend to share core values that are highly compatible with those that are central to the business and established at the outset. We treat each other with mutual respect, openness and fairness and are driven by a desire to ‘do the right thing’ by all our stakeholders. This is our culture it is central to our success. We are therefore proactive in building and reinforcing it.
-        </p>
-    </div>
-</section>
-<section>
-    <div class="tp-section">
-        <h1>anti-bribery and corruption framework</h1>
-        <p>
-            {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management is committed to operating within the commercial banking laws and protocols of any jurisdiction in which it does business, and in a way that is consistent with our Code of Conduct and What We Stand For. As a company, we have enforced a robust framework to prevent all forms of bribery and corruption. Our Anti- Bribery and Corruption Policy forbids the actual or attempted use of any form of bribery or corruption, either directly or indirectly, on {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management’s behalf to advance its business interests or those of its associates.{{$compd? $compd->Companyname: 'Coming soon'}} Financial Management has systems and controls in place to prevent bribery and corruption.
-        </p>
-    </div>
-    <div class="bt-section">
-        <div class="left">
-            <h3>policies &amp; procedures</h3>
-            <p>
-                Bribery and corruption risks are addressed through a number of other {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management policies and procedures, including our Anti-Money Laundering and Counter-Terrorism Financing Policy, incorporating Client Identification. This document is a summary of {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management’s Anti-Bribery and Corruption Policy and framework. It is not intended to create third party rights or duties or to form part of any contractual agreement between {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management and any other party.
-            </p>
-        </div>
-        <div class="right">
-            <h3>due dilligence</h3>
-            <p>
-                In dealing with third parties, the Policy requires sufficient due diligence to be undertaken to ensure that they are suitable to be associated with {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management, and that appropriate controls are implemented, designed to prevent and detect bribery and corruption. Third parties associated with {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management are in turn expected to have appropriate due diligence arrangements and controls in place in relation to the other parties they engage with, on behalf of {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management.
-            </p>
-        </div>
-    </div>
-</section>
-</main>
 
 @endsection()
