@@ -24,7 +24,7 @@ use function is_array, is_float, is_object, is_string;
  * @property string|null $allow
  * @property string|null $alt
  * @property bool|null   $async
- * @property string|null $autoize
+ * @property string|null $autocapitalize
  * @property string|null $autocomplete
  * @property bool|null   $autofocus
  * @property bool|null   $autoplay
@@ -132,7 +132,7 @@ use function is_array, is_float, is_object, is_string;
  * @method self allow(?string $val, bool $state = null)
  * @method self alt(?string $val)
  * @method self async(?bool $val)
- * @method self autoize(?string $val)
+ * @method self autocapitalize(?string $val)
  * @method self autocomplete(?string $val)
  * @method self autofocus(?bool $val)
  * @method self autoplay(?bool $val)

@@ -298,7 +298,7 @@ class Strings
 	/**
 	 * Converts the first character of every word of a UTF-8 string to upper case and the others to lower case.
 	 */
-	public static function ize(string $s): string
+	public static function capitalize(string $s): string
 	{
 		return mb_convert_case($s, MB_CASE_TITLE, 'UTF-8');
 	}
