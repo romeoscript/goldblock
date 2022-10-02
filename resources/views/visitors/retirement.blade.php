@@ -78,11 +78,11 @@ your retirement savings.
 						<ul class="categories-list clearfix">
 							<li><a href="services2d2b.html?d=1" class="active">Retirement Planning</a></li>
 									<li><a href="estate.html">Real Estate & Investment Management</a></li>
-									<li><a href="services87dd.html?d=2" class="">Cannabis Investments</a></li>
-									<li><a href="servicesb558.html?d=3" class="">Cryptocurrency Trading</a></li>
+									<li><a href="{{route('cannabis')}}" class="">Cannabis Investments</a></li>
+									<li><a href="{{route('cryptoplans')}}" class="">Cryptocurrency Trading</a></li>
 									<li><a href="{{route('finacialplaning')}}" class="">Financial Planning</a></li>
-										<li><a href="oil.html">Oil And Gas</a></li>
-										<li><a href="loan.html">Loan</a></li>
+										<li><a href="{{route('oilandgas')}}">Oil And Gas</a></li>
+										<li><a href="{{route('loansandgrant')}}">Loan</a></li>
 						</ul>
 					</div>
 					<div class="sidebar-testimonial">

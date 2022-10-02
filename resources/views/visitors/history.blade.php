@@ -2,48 +2,147 @@
 
 @section("body")
 
-<section class="banner-section">
-    <div class="img-container">
-     <!--   <img src="{{asset("images/history-banner-img.jpg")}}" alt="banner image"> -->
-    </div>
-    <div class="banner-overlay">
-
-    </div>
-    <div class="bread-crumb">
-        <nav>
-            <ul>
-                <li><a href="{{route('index')}}">Go to home</a></li>
-                <li><a href="#">History</a></li>
+<!-- START SECTION BANNER -->
+<section class="page-title centred" style="background-image: url(assets/images/background/page-title.jpg);">
+    <div class="auto-container">
+        <div class="content-box clearfix">
+            <ul class="bread-crumb clearfix">
+                <li><a href="index-2.html">Gold Block Assets</a></li>
             </ul>
-        </nav>
+            <h1>Real Estate</h1>                
+        </div>
+    </div>
+</section>
+<section class="team-section about-page-1">
+    <div class="auto-container">
+        <div class="title-box">
+            <div class="row clearfix">
+                <div class="col-lg-6 col-md-6 col-sm-12 title-column">
+                    <div class="sec-title right">
+                        <h5>Asking Price</h5>
+                        <h2>$620,000</h2>
+                        <a class="btn btn-primary" href="mailto:support@goldblockassets.com"> Make An Offer</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 text-column">
+                    <div class="text">
+                        <p>Zak Hale 9 | Offered for $620,000 | 4 BR/ 4.5 BA | 2,460 sq. ft. Interior. Hawaii </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-lg-3 col-md-6 col-sm-12 news-block">
+                <div class="news-block-one wow fadeInUp animated animated animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="images/hs/2.jpg" alt=""></figure>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 col-sm-12 news-block">
+                <div class="news-block-one wow fadeInUp animated animated animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="images/hs/2b.jpg" alt=""></figure>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 col-sm-12 news-block">
+                <div class="news-block-one wow fadeInUp animated animated animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="images/hs/2c.jpg" alt=""></figure>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 col-sm-12 news-block">
+                <div class="news-block-one wow fadeInUp animated animated animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="images/hs/2d.jpg" alt=""></figure>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!--section class="clients-section">
+    <div class="auto-container">
+        <div class="clients-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
+            <figure class="client-logo"><a href="index.html"><img src="assets/images/clients/clients-1.png" alt=""></a></figure>
+            <figure class="client-logo"><a href="index.html"><img src="assets/images/clients/clients-2.png" alt=""></a></figure>
+            <figure class="client-logo"><a href="index.html"><img src="assets/images/clients/clients-3.png" alt=""></a></figure>
+            <figure class="client-logo"><a href="index.html"><img src="assets/images/clients/clients-4.png" alt=""></a></figure>
+            <figure class="client-logo"><a href="index.html"><img src="assets/images/clients/clients-5.png" alt=""></a></figure>
+        </div>
+    </div>
+</section-->
+
+<section class="cta-section">
+    <div class="auto-container">
+        <div class="inner-container clearfix">
+            <div class="title pull-left">
+                <h2>Open account for free and start investing!</h2>
+            </div>
+            <div class="btn-box pull-right">
+                <a href="{{route('register')}}">Get Started</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- cta-section end -->
+
+
+<!-- fun-fact -->
+<section class="fun-fact centred">
+    <div class="auto-container">
+        <div class="row clearfix">
+            <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+                <div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <div class="count-outer count-box" style="font-size: 35px;">
+                        <span class="count-text" data-speed="1500" data-stop="100253">0</span>
+                    </div>
+                    <p>Active Users</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+                <div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <div class="count-outer count-box" style="font-size: 35px;">
+                        <span class="count-text" data-speed="1500" data-stop="1338">0</span>
+                    </div>
+                    <p>Running Days</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+                <div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <div class="count-outer count-box" style="font-size: 35px;">
+                        <img src="images/coins/usdt.html" style="width: 30px; height: auto;" alt=""> USDT <span class="count-text" data-speed="1500" data-stop="300021142.336">0</span>
+                    </div>
+                    <p>DEPOSIT</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+                <div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <div class="count-outer count-box" style="font-size: 35px;">
+                        <img src="images/coins/usdt.html" style="width: 30px; height: auto;" alt=""> USDT <span class="count-text" data-speed="1500" data-stop="303452266721.39">0</span>
+                    </div>
+                    <p>WITHDRAWALS</p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
-<main class="history-contents aboutus-page">
-<!-- contents of the page -->
-<h1>Brief History</h1>
-<section class="history-section">
-    <p>
-        In 2000, David William Davies founded {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management and began managing discretionary assets with a fundamental belief in capitalism and free capital markets. We start with the simple notion that supply and demand are the sole determinants of securities pricing. In addition, we believe capital markets are relatively efficient discounters of all widely known information.
-    </p>
-    <p>
-        Thus, to add value through active management, one must identify information not widely known or interpreted differently from other market participants. Throughout our history, we have continuously developed ways to look at capital markets differently.
-    </p>
-    <p>
-        David William Davies theoretical work in the 1970s popularized the use of the Price to Sales Ratio and detailed its relevance as a tool for investment analysis. This tool was used to help manage small-cap value portfolios for our institutional investors.
-    </p>
-    <p>
-        {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management contributed to the recognition of distinct investment styles. We used these advancements as the foundation for a new series of broad mandate strategies, including Global Total Return, US Total Return, and Foreign Equity.
-    </p>
-    <p>
-        {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management began offering separate portfolio management directly to high net worth individuals under our Private Client Group. In early 2004, we expanded our service offerings into Canada and the United Kingdom. In 2007, Coming soon Financial Management and its subsidiaries operate in 13 offices across 8 countries and serve over 35,000 clients globally.
-    </p>
-    <p>
-        In addition, we have dedicated significant resources to the emerging field of behavioral finance to better understand not just the tools of finance, but also how investors use these tools. Our research has led us to develop practical applications of behavioral finance in our portfolio management process.
-    </p>
-</section>
 
-</main>
+
+
+
+
 
 
 

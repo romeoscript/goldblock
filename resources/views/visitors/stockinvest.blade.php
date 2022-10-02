@@ -32,7 +32,7 @@
                         <div class="inner">
                             <h3>$620,000</h3>
                             <p>Zak Hale 9 | Offered for $620,000 | 4 BR/ 4.5 BA | 2,460 sq. ft. Interior.</p>
-                            <a class="btn btn-warning" style="margin-bottom: 5px;" href="estate87dd.html?d=2"> View Details</a>
+                            <a class="btn btn-warning" style="margin-bottom: 5px;" href="{{ route('history') }}"> View Details</a>
                                 <br>
                                 <a class="btn btn-primary" href="mailto:support@goldblockassets.com"> Make An Offer</a>
                         </div>
@@ -77,7 +77,7 @@
                         <div class="inner">
                             <h3>$26,430</h3>
                             <p> Bds | 1 Ba | 360 SQFT Location: 225 East 4th Street, Apt 18, New York. </p>
-                            <a class="btn btn-warning" style="margin-bottom: 5px;" href="estatecdf7.html?d=4"> View Details</a>
+                            <a class="btn btn-warning" style="margin-bottom: 5px;" href="{{ route('landbanking') }}"> View Details</a>
                                 <br>
                                 <a class="btn btn-primary" href="mailto:support@goldblockassets.com"> Make An Offer</a>
                         </div>

@@ -440,8 +440,8 @@
                                     <ul class="list clearfix">
                                         <li><a href="services2d2b.html?d=1">Retirement Planning</a></li>
                                         <li><a href="estate.html">Real Estate & Investment Management</a></li>
-                                        <li><a href="services87dd.html?d=2">Cannabis Investments</a></li>
-                                        <li><a href="servicesb558.html?d=3">Cryptocurrency Trading</a></li>
+                                        <li><a href="{{route('cannabis')}}">Cannabis Investments</a></li>
+                                        <li><a href="{{route('cryptoplans')}}">Cryptocurrency Trading</a></li>
                                         <li><a href="{{route('finacialplaning')}}">Financial Planning</a></li>
                                     </ul>
                                 </div>
