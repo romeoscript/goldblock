@@ -7,7 +7,7 @@
 	<div class="auto-container">
 		<div class="content-box clearfix">
 			<ul class="bread-crumb clearfix">
-				<li><a href="index-2.html">Gold Block Assets</a></li>
+				<li><a href="index-2.html">{{ $compd ? $compd->companyname : 'company name' }}</a></li>
 			</ul>
 			<h1>Loan</h1>                
 		</div>
@@ -25,19 +25,19 @@
 						<div class="text">
 							<p>Getting a loan doesn’t have to be intimidating, with the right lender it can be
 						   a simple process. You only need a lender committed to taking the mystery out of the mortgage loan 
-						   process! At Gold Block Assets, we understand! Our investors want simple facts, honest answers
+						   process! At {{ $compd ? $compd->companyname : 'company name' }}, we understand! Our investors want simple facts, honest answers
 						   and competitive products.
 
-DGS automatically offers loan services to investors with over $50,000 investment either in our normal Gold Block Assets financial
+DGS automatically offers loan services to investors with over $50,000 investment either in our normal {{ $compd ? $compd->companyname : 'company name' }} financial
 
 Services packages or the NFP plans. Investors over $50,000 are entitled to loans of $200,000-1millon dollars yearly with 5% 
 paid monthly, or the investor could wish to compound the interest till the time limit, provided all required information and 
-identity of the investor are duly confirmed by Gold Block Assets loan board.
+identity of the investor are duly confirmed by {{ $compd ? $compd->companyname : 'company name' }} loan board.
 
 Every investor above $50,000 is provided with a personal account manager and the investor has a direct communication with 
 the manager in order to see that our loan offers are secured.
 
-GREAT INVESTING WITH Gold Block Assets FAMILY</p>
+GREAT INVESTING WITH {{ $compd ? $compd->companyname : 'company name' }} FAMILY</p>
 						</div>
 					</div>
 				</div>

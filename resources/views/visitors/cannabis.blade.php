@@ -8,7 +8,7 @@
         <div class="auto-container">
             <div class="content-box clearfix">
                 <ul class="bread-crumb clearfix">
-                    <li><a href="index-2.html">Gold Block Assets</a></li>
+                    <li><a href="index-2.html">{{ $compd ? $compd->companyname : 'company name' }}</a></li>
                 </ul>
                 <h1>Cannabis Investments</h1>                
             </div>
@@ -26,7 +26,7 @@
                         <div class="content-style-one">
                             <figure class="image-box"><img src="serv/2.png" alt=""></figure>
                             <div class="sec-title left">
-                                <h5>Gold Block Assets</h5>
+                                <h5>{{ $compd ? $compd->companyname : 'company name' }}</h5>
                                 <h2>Medical Cannabis</h2>
                             </div>
                             <div class="text">
@@ -75,7 +75,7 @@
                         <div class="sidebar-categories">
                             <ul class="categories-list clearfix">
                                 <li><a href="services2d2b.html?d=1" class="">Retirement Planning</a></li>
-                                        <li><a href="estate.html">Real Estate & Investment Management</a></li>
+                                        <li><a href="{{route('realestate')}}">Real Estate & Investment Management</a></li>
                                         <li><a href="{{route('cannabis')}}" class="active">Cannabis Investments</a></li>
                                         <li><a href="{{route('cryptoplans')}}" class="">Cryptocurrency Trading</a></li>
                                         <li><a href="{{route('finacialplaning')}}" class="">Financial Planning</a></li>
@@ -89,7 +89,7 @@
                                                                 <div class="content-box">
                                     <div class="text">
                                         <p>I feel like I got a new home.
-Thanks to Gold block assets and also to the administration.</p>
+Thanks to {{ $compd ? $compd->companyname : 'company name' }} and also to the administration.</p>
                                     </div>
                                     <div class="author-info">
                                         <figure class="image-box"><img src="images/BeJZ4LzIiQnXPhp1633981448208.jpg" alt=""></figure>
@@ -112,7 +112,7 @@ Thanks to Gold block assets and also to the administration.</p>
                                                                 <div class="content-box">
                                     <div class="text">
                                         <p>Really...
-I'm excited already ???a very big thanks to Gold block assets</p>
+I'm excited already ???a very big thanks to {{ $compd ? $compd->companyname : 'company name' }}</p>
                                     </div>
                                     <div class="author-info">
                                         <figure class="image-box"><img src="images/xVl3J7SnoCTUMti1614696078778.jpg" alt=""></figure>
@@ -145,7 +145,7 @@ I'm excited already ???a very big thanks to Gold block assets</p>
                                 
                                                                 <div class="content-box">
                                     <div class="text">
-                                        <p>So happy about the truthfulness of the company, my withdrawal was approved and my btc sent to my wallet under just few minutes after I requested for a withdrawal, I think you all should invest with Gold block assets</p>
+                                        <p>So happy about the truthfulness of the company, my withdrawal was approved and my btc sent to my wallet under just few minutes after I requested for a withdrawal, I think you all should invest with {{ $compd ? $compd->companyname : 'company name' }}</p>
                                     </div>
                                     <div class="author-info">
                                         <figure class="image-box"><img src="images/1gB4kVWZLbHyQxF1614696122840.jpg" alt=""></figure>

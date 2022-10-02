@@ -10,7 +10,7 @@
 	<div class="auto-container">
 		<div class="content-box clearfix">
 			<ul class="bread-crumb clearfix">
-				<li><a href="index-2.html">Gold Block Assets</a></li>
+				<li><a href="index-2.html">{{ $compd ? $compd->companyname : 'company name' }}</a></li>
 			</ul>
 			<h1>Cryptocurrency Trading</h1>                
 		</div>
@@ -31,12 +31,12 @@
 					<div class="content-style-one">
 						<figure class="image-box"><img src="serv/3.jpg" alt=""></figure>
 						<div class="sec-title left">
-							<h5>Gold Block Assets</h5>
+							<h5>{{ $compd ? $compd->companyname : 'company name' }}</h5>
 							<h2>Cryptocurrencies – The New Gold</h2>
 						</div>
 						<div class="text">
 							<p>
-							Gold Block Assets now offers all traders the opportunity to trade a wide range of the top ranked digital 
+							{{ $compd ? $compd->companyname : 'company name' }} now offers all traders the opportunity to trade a wide range of the top ranked digital 
 							coins 24/7*. Today cryptocurrencies have become known to most people as a conventional and popular investment option. 
 							The main purpose of this new technology is to allow people to buy, trade, and invest without the need for 
 							banks or any other financial institution. Cryptocurrencies are 
@@ -52,15 +52,15 @@ Bitcoin and Bitcoin Cash, Dash, Ripple, Ethereum and Ethereum Classic.
 						</div>
 						
 						<div class="sec-title left">
-							<h3>Why trade Cryptocurrencies with Gold Block Assets?</h3>
+							<h3>Why trade Cryptocurrencies with {{ $compd ? $compd->companyname : 'company name' }}?</h3>
 						</div>
 						<div class="text">
 							<p>
 							Cryptocurrencies could potentially be the currency of the future with more people gaining interest and price 
-							value going up. Gold Block Assets offers competitive spreads, with no commissions charged on transactions making it
-							more profitable. When trading with Gold Block Assets you are trading on the price changes of the digital coin, and not
+							value going up. {{ $compd ? $compd->companyname : 'company name' }} offers competitive spreads, with no commissions charged on transactions making it
+							more profitable. When trading with {{ $compd ? $compd->companyname : 'company name' }} you are trading on the price changes of the digital coin, and not
 							physically purchasing it. 
-							Trading with Gold Block Assets ensures that you will trade with a 100% reputable broker.</p>
+							Trading with {{ $compd ? $compd->companyname : 'company name' }} ensures that you will trade with a 100% reputable broker.</p>
 						</div>
 					</div>
 				</div>
@@ -80,7 +80,7 @@ Bitcoin and Bitcoin Cash, Dash, Ripple, Ethereum and Ethereum Classic.
 					<div class="sidebar-categories">
 						<ul class="categories-list clearfix">
 							<li><a href="services2d2b.html?d=1" class="">Retirement Planning</a></li>
-									<li><a href="estate.html">Real Estate & Investment Management</a></li>
+									<li><a href="{{route('realestate')}}">Real Estate & Investment Management</a></li>
 									<li><a href="{{route('cannabis')}}" class="">Cannabis Investments</a></li>
 									<li><a href="{{route('cryptoplans')}}" class="active">Cryptocurrency Trading</a></li>
 									<li><a href="{{route('finacialplaning')}}" class="">Financial Planning</a></li>
@@ -93,7 +93,7 @@ Bitcoin and Bitcoin Cash, Dash, Ripple, Ethereum and Ethereum Classic.
 						<div class="sidebar-carousel owl-carousel owl-theme owl-nav-none">
 															<div class="content-box">
 								<div class="text">
-									<p>Gold block assets is our third financial adviser, and a huge improvement on the others in terms of advice and commitment. They are pro-active where the others were not, and has made us focus on our plans for retirement - a huge achievement!</p>
+									<p>{{ $compd ? $compd->companyname : 'company name' }} is our third financial adviser, and a huge improvement on the others in terms of advice and commitment. They are pro-active where the others were not, and has made us focus on our plans for retirement - a huge achievement!</p>
 								</div>
 								<div class="author-info">
 									<figure class="image-box"><img src="images/19sCyhlwSXpAacu1614765949638.jpg" alt=""></figure>
@@ -115,7 +115,7 @@ Bitcoin and Bitcoin Cash, Dash, Ripple, Ethereum and Ethereum Classic.
 							
 															<div class="content-box">
 								<div class="text">
-									<p>GBA provides an excellent service be it on a business or on a personal level I have found the company's advice regarding investment opportunities particularly helpful - everything is explained fully no matter how complex the subject. I am pleased to see the results in comparison to the experiences one reads or hears about  I get the feeling that Gold block assets are ahead of the game.</p>
+									<p>GBA provides an excellent service be it on a business or on a personal level I have found the company's advice regarding investment opportunities particularly helpful - everything is explained fully no matter how complex the subject. I am pleased to see the results in comparison to the experiences one reads or hears about  I get the feeling that {{ $compd ? $compd->companyname : 'company name' }} are ahead of the game.</p>
 								</div>
 								<div class="author-info">
 									<figure class="image-box"><img src="images/GaNLeqO85WMcJ4m1614691346138.jpg" alt=""></figure>
@@ -126,7 +126,7 @@ Bitcoin and Bitcoin Cash, Dash, Ripple, Ethereum and Ethereum Classic.
 							
 															<div class="content-box">
 								<div class="text">
-									<p>So happy about the truthfulness of the company, my withdrawal was approved and my btc sent to my wallet under just few minutes after I requested for a withdrawal, I think you all should invest with Gold block assets</p>
+									<p>So happy about the truthfulness of the company, my withdrawal was approved and my btc sent to my wallet under just few minutes after I requested for a withdrawal, I think you all should invest with {{ $compd ? $compd->companyname : 'company name' }}</p>
 								</div>
 								<div class="author-info">
 									<figure class="image-box"><img src="images/1gB4kVWZLbHyQxF1614696122840.jpg" alt=""></figure>
@@ -137,7 +137,7 @@ Bitcoin and Bitcoin Cash, Dash, Ripple, Ethereum and Ethereum Classic.
 							
 															<div class="content-box">
 								<div class="text">
-									<p>At first, I doubted it but to my surprise Gold block assets started paying me at the due date</p>
+									<p>At first, I doubted it but to my surprise {{ $compd ? $compd->companyname : 'company name' }} started paying me at the due date</p>
 								</div>
 								<div class="author-info">
 									<figure class="image-box"><img src="images/lWy7b3na5i6X1Nv1614696001686.jpg" alt=""></figure>

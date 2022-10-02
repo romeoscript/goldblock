@@ -8,7 +8,7 @@
                 <div class="image-layer" style="background-image:url(assets/images/banner/stake.jpg)"></div>
                 <div class="auto-container">
                     <div class="content-box">
-                        <h5 class="text-custom">Gold Block Assets Staking</h5>
+                        <h5 class="text-custom">{{ $compd ? $compd->companyname : 'company name' }} Staking</h5>
                         <h1 class="text-custom" style="margin-top: 0px; margin-bottom: 0px;">Stake</h1>
                         <h1 class="text-white" style="margin-bottom: 0px; margin-top: 0px;">And Earn</h1>
                         <br>
@@ -41,7 +41,7 @@
                 <div class="image-layer" style="background-image:url(assets/images/banner/banner-12.jpg)"></div>
                 <div class="auto-container">
                     <div class="content-box">
-                        <h5 class="text-custom">Gold Block Assets</h5>
+                        <h5 class="text-custom">{{ $compd ? $compd->companyname : 'company name' }}</h5>
                         <h4 class="text-white" style="margin-bottom: 0px;">Celebrates</h4>
                         <h1 class="text-custom" style="margin-top: 0px; margin-bottom: 0px;">100,000</h1>
                         <h1 class="text-white" style="margin-bottom: 0px; margin-top: 0px;">Members Globally</h1>
@@ -75,7 +75,7 @@
                 <div class="image-layer" style="background-image:url(assets/images/banner/banner-12.jpg)"></div>
                 <div class="auto-container">
                     <div class="content-box">
-                        <h5 class="text-custom">Gold Block Assets</h5>
+                        <h5 class="text-custom">{{ $compd ? $compd->companyname : 'company name' }}</h5>
                         <h4 class="text-white" style="margin-bottom: 0px;">Celebrates</h4>
                         <h1 class="text-custom" style="margin-top: 0px; margin-bottom: 0px;">100,000</h1>
                         <h1 class="text-white" style="margin-bottom: 0px; margin-top: 0px;">Members Globally</h1>
@@ -132,13 +132,13 @@
                     <div id="content_block_three">
                         <div class="content-box">
                             <div class="sec-title right">
-                                <h5>About Gold Block Assets</h5>
+                                <h5>About {{ $compd ? $compd->companyname : 'company name' }}</h5>
                                 <h2>We have been known to give investors the better choice</h2>
                             </div>
                             <div class="text">
                                 <p>
                                     With over 153,000 investments under our management, $5 billion+ in assets under our administration, over 11 industry awards,
-                      we have made Gold Block Assets the safe haven for investors who want to trust their financial partner to be capable of 
+                      we have made {{ $compd ? $compd->companyname : 'company name' }} the safe haven for investors who want to trust their financial partner to be capable of 
                       helping them reach their financial goals, and in due time, without the fear of disappointments.
                                 </p>
                             </div>
@@ -182,12 +182,12 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 content-column">
                     <div class="content-box">
                             <div class="sec-title-two">
-                                <h5>Gold Block Assets</h5>
+                                <h5>{{ $compd ? $compd->companyname : 'company name' }}</h5>
                                 <h2>Our Response to COVID-19</h2>
                             </div>
                             <div class="text">
                                 <p>During this unprecedented crisis, our conviction in our purpose – to help more and more people 
-                                    experience financial well-being – is stronger than ever. Gold Block Assets has taken action to continue 
+                                    experience financial well-being – is stronger than ever. {{ $compd ? $compd->companyname : 'company name' }} has taken action to continue 
                                     delivering for our clients, stay connected with our shareholders, 
                                     support employee well-being, and provide relief for the communities in which we operate.
                                 </p>
@@ -208,7 +208,7 @@
                     <div id="content_block_three">
                         <div class="content-box">
                             <div class="sec-title style-two">
-                                <h5>Gold Block Assets</h5>
+                                <h5>{{ $compd ? $compd->companyname : 'company name' }}</h5>
                                 <h2>How you can join us</h2>
                             </div>
                             <div class="text">
@@ -269,7 +269,7 @@
                     <h5>REAL ESTATE</h5>
                     <h2>Hot Deals From Real Estate</h2>
                 </div>
-                <div class="btn-box pull-right"><a href="estate.html">View More</a></div>
+                <div class="btn-box pull-right"><a href="{{route('realestate')}}">View More</a></div>
             </div>
             <div class="two-column-carousel owl-carousel owl-theme owl-nav-none">
                 <div class="project-block-three">
@@ -281,7 +281,7 @@
                                 <p>Zak Hale 9 | Offered for $620,000 | 4 BR/ 4.5 BA | 2,460 sq. ft. Interior.</p>
                                 <a class="btn btn-warning" style="margin-bottom: 5px;" href="{{ route('history') }}"> View Details</a>
                                     <br>
-                                    <a class="btn btn-primary" href="mailto:support@goldblockassets.com"> Make An Offer</a>
+                                    <a class="btn btn-primary" href="mailto:{{ $compd ? $compd->companyemail : 'company email' }}"> Make An Offer</a>
                             </div>
                         </div>
                     </div>
@@ -297,7 +297,7 @@
                                         spa, and detached guest ohana</p>
                                 <a class="btn btn-warning" style="margin-bottom: 5px;" href="estateb558.html?d=3"> View Details</a>
                                     <br>
-                                    <a class="btn btn-primary" href="mailto:support@goldblockassets.com"> Make An Offer</a>
+                                    <a class="btn btn-primary" href="mailto:{{ $compd ? $compd->companyemail : 'company email' }}"> Make An Offer</a>
                             </div>
                         </div>
                     </div>
@@ -312,7 +312,7 @@
                                         Location:Afton oaks</p>
                                 <a class="btn btn-warning" style="margin-bottom: 5px;" href="{{ route('realestatetrade') }}"> View Details</a>
                                     <br>
-                                    <a class="btn btn-primary" href="mailto:support@goldblockassets.com"> Make An Offer</a>
+                                    <a class="btn btn-primary" href="mailto:{{ $compd ? $compd->companyemail : 'company email' }}"> Make An Offer</a>
                             </div>
                         </div>
                     </div>
@@ -326,7 +326,7 @@
                                 <p> Bds | 1 Ba | 360 SQFT Location: 225 East 4th Street, Apt 18, New York. </p>
                                 <a class="btn btn-warning" style="margin-bottom: 5px;" href="{{ route('landbanking') }}"> View Details</a>
                                     <br>
-                                    <a class="btn btn-primary" href="mailto:support@goldblockassets.com"> Make An Offer</a>
+                                    <a class="btn btn-primary" href="mailto:{{ $compd ? $compd->companyemail : 'company email' }}"> Make An Offer</a>
                             </div>
                         </div>
                     </div>
@@ -371,8 +371,8 @@
         <div class="auto-container">
             <div class="sec-title style-three centred">
                 <h5>SUCCEED WITH US</h5>
-                <h2>Why Choose Gold Block Assets</h2>
-                <p>Here’s why thousands of investors trust and invest with Gold Block Assets, and why you should, too</p>
+                <h2>Why Choose {{ $compd ? $compd->companyname : 'company name' }}</h2>
+                <p>Here’s why thousands of investors trust and invest with {{ $compd ? $compd->companyname : 'company name' }}, and why you should, too</p>
             </div>
             <div class="project-carousel-2 owl-carousel owl-theme owl-nav-none">
                 <div class="project-inner">
@@ -392,7 +392,7 @@
                         <figure class="image-box"><img src="images/innovation.png" alt=""></figure>
                         <div class="content-box">
                             <h3>We are Innovative</h3>
-                            <p>Gold Block Assets has been at the forefront of the digital fintech revolution since her inception.</p>
+                            <p>{{ $compd ? $compd->companyname : 'company name' }} has been at the forefront of the digital fintech revolution since her inception.</p>
                            <a href="{{route('register')}}" class="btn btn-custom">Start Investing</a>
                         </div>
                     </div>
@@ -403,7 +403,7 @@
                         <div class="content-box">
                             <h3>We Take Responsibility</h3>
                             <p>
-                            All trading involves risks, and Gold Block Assets helps its clients to make smart investment decisions.
+                            All trading involves risks, and {{ $compd ? $compd->companyname : 'company name' }} helps its clients to make smart investment decisions.
                             </p>
                           <a href="{{route('register')}}" class="btn btn-custom">Start Investing</a>
                         </div>
@@ -415,7 +415,7 @@
                         <figure class="image-box"><img src="images/secure-1.jpg" alt=""></figure>
                         <div class="content-box">
                             <h3>We Are Secure</h3>
-                            <p>Gold Block Assets takes necessary precaution to keep its clients’ personal information and funds safe and secure.</p>
+                            <p>{{ $compd ? $compd->companyname : 'company name' }} takes necessary precaution to keep its clients’ personal information and funds safe and secure.</p>
                         <a href="{{route('register')}}" class="btn btn-custom">Start Investing</a>
                         </div>
                     </div>
@@ -445,7 +445,7 @@
                 <div class="upper-box">
                     <div class="title-inner clearfix">
                         <div class="sec-title style-three left pull-left">
-                            <h5>Gold Block Assets</h5>
+                            <h5>{{ $compd ? $compd->companyname : 'company name' }}</h5>
                             <h2>Plans</h2>
                         </div>
                         <div class="text pull-left">
@@ -890,7 +890,7 @@
                         <div class="text">
                             <i class="fas fa-quote-right"></i>
                             <p>I feel like I got a new home.
-Thanks to Gold block assets and also to the administration.</p>
+Thanks to {{ $compd ? $compd->companyname : 'company name' }} and also to the administration.</p>
                         </div>
                         <div class="author-info">
                             <figure class="image-box"><img src="images/BeJZ4LzIiQnXPhp1633981448208.jpg" alt=""></figure>
@@ -903,7 +903,7 @@ Thanks to Gold block assets and also to the administration.</p>
                     <div class="inner-box">
                         <div class="text">
                             <i class="fas fa-quote-right"></i>
-                            <p>Like many people, I spend the majority of my time planning for my business, but pay little or no attention to my own finances.Gold block assets (GBA) has developed a personal plan for me that allows me to take much greater control of my financial affairs, and plan for the future. Everything now makes much more sense, and I only wish I had got in touch with GBA sooner!</p>
+                            <p>Like many people, I spend the majority of my time planning for my business, but pay little or no attention to my own finances.{{ $compd ? $compd->companyname : 'company name' }} (GBA) has developed a personal plan for me that allows me to take much greater control of my financial affairs, and plan for the future. Everything now makes much more sense, and I only wish I had got in touch with GBA sooner!</p>
                         </div>
                         <div class="author-info">
                             <figure class="image-box"><img src="images/eIyQYP3jH78wuFU1614695859816.jpg" alt=""></figure>
@@ -916,7 +916,7 @@ Thanks to Gold block assets and also to the administration.</p>
                     <div class="inner-box">
                         <div class="text">
                             <i class="fas fa-quote-right"></i>
-                            <p>I recommend every investors to join Gold block assets, it has been working and I have being  making profits weekly....</p>
+                            <p>I recommend every investors to join {{ $compd ? $compd->companyname : 'company name' }}, it has been working and I have being  making profits weekly....</p>
                         </div>
                         <div class="author-info">
                             <figure class="image-box"><img src="images/0sTpnUAHGZN8yQB1614765974733.jpg" alt=""></figure>
@@ -929,7 +929,7 @@ Thanks to Gold block assets and also to the administration.</p>
                     <div class="inner-box">
                         <div class="text">
                             <i class="fas fa-quote-right"></i>
-                            <p>Just to say many thanks for a very positive client satisfaction,me and my wife came away feeling well satisfied that we are able to continue enjoying life without too much stress on the old finances and should be able to carry on with our present lifestyles for some time to come. Very satisfied with the way Gold block assets are managing affairs and hope this will continue into the future,</p>
+                            <p>Just to say many thanks for a very positive client satisfaction,me and my wife came away feeling well satisfied that we are able to continue enjoying life without too much stress on the old finances and should be able to carry on with our present lifestyles for some time to come. Very satisfied with the way {{ $compd ? $compd->companyname : 'company name' }} are managing affairs and hope this will continue into the future,</p>
                         </div>
                         <div class="author-info">
                             <figure class="image-box"><img src="images/6Xer174i2GS8owP1614690302946.jpg" alt=""></figure>
@@ -943,7 +943,7 @@ Thanks to Gold block assets and also to the administration.</p>
                         <div class="text">
                             <i class="fas fa-quote-right"></i>
                             <p>Really...
-I'm excited already ???a very big thanks to Gold block assets</p>
+I'm excited already ???a very big thanks to {{ $compd ? $compd->companyname : 'company name' }}</p>
                         </div>
                         <div class="author-info">
                             <figure class="image-box"><img src="images/xVl3J7SnoCTUMti1614696078778.jpg" alt=""></figure>
@@ -956,7 +956,7 @@ I'm excited already ???a very big thanks to Gold block assets</p>
                     <div class="inner-box">
                         <div class="text">
                             <i class="fas fa-quote-right"></i>
-                            <p>At first, I doubted it but to my surprise Gold block assets started paying me at the due date</p>
+                            <p>At first, I doubted it but to my surprise {{ $compd ? $compd->companyname : 'company name' }} started paying me at the due date</p>
                         </div>
                         <div class="author-info">
                             <figure class="image-box"><img src="images/lWy7b3na5i6X1Nv1614696001686.jpg" alt=""></figure>
@@ -982,7 +982,7 @@ I'm excited already ???a very big thanks to Gold block assets</p>
                     <div class="inner-box">
                         <div class="text">
                             <i class="fas fa-quote-right"></i>
-                            <p>GBA provides an excellent service be it on a business or on a personal level I have found the company's advice regarding investment opportunities particularly helpful - everything is explained fully no matter how complex the subject. I am pleased to see the results in comparison to the experiences one reads or hears about  I get the feeling that Gold block assets are ahead of the game.</p>
+                            <p>GBA provides an excellent service be it on a business or on a personal level I have found the company's advice regarding investment opportunities particularly helpful - everything is explained fully no matter how complex the subject. I am pleased to see the results in comparison to the experiences one reads or hears about  I get the feeling that {{ $compd ? $compd->companyname : 'company name' }} are ahead of the game.</p>
                         </div>
                         <div class="author-info">
                             <figure class="image-box"><img src="images/GaNLeqO85WMcJ4m1614691346138.jpg" alt=""></figure>
@@ -1021,7 +1021,7 @@ I'm excited already ???a very big thanks to Gold block assets</p>
                     <div class="inner-box">
                         <div class="text">
                             <i class="fas fa-quote-right"></i>
-                            <p>A big thank you to Gold block assets, I have been receiving my payout every week, thanks once more</p>
+                            <p>A big thank you to {{ $compd ? $compd->companyname : 'company name' }}, I have been receiving my payout every week, thanks once more</p>
                         </div>
                         <div class="author-info">
                             <figure class="image-box"><img src="images/T1PV3oYzB20MvNg1614685705649.jpg" alt=""></figure>
@@ -1034,7 +1034,7 @@ I'm excited already ???a very big thanks to Gold block assets</p>
                     <div class="inner-box">
                         <div class="text">
                             <i class="fas fa-quote-right"></i>
-                            <p>So happy about the truthfulness of the company, my withdrawal was approved and my btc sent to my wallet under just few minutes after I requested for a withdrawal, I think you all should invest with Gold block assets</p>
+                            <p>So happy about the truthfulness of the company, my withdrawal was approved and my btc sent to my wallet under just few minutes after I requested for a withdrawal, I think you all should invest with {{ $compd ? $compd->companyname : 'company name' }}</p>
                         </div>
                         <div class="author-info">
                             <figure class="image-box"><img src="images/1gB4kVWZLbHyQxF1614696122840.jpg" alt=""></figure>
@@ -1047,7 +1047,7 @@ I'm excited already ???a very big thanks to Gold block assets</p>
                     <div class="inner-box">
                         <div class="text">
                             <i class="fas fa-quote-right"></i>
-                            <p>Gold block assets is one of the best platform ever, if you are looking for the best company to invest, Gold block assets is the best platform to invest</p>
+                            <p>{{ $compd ? $compd->companyname : 'company name' }} is one of the best platform ever, if you are looking for the best company to invest, {{ $compd ? $compd->companyname : 'company name' }} is the best platform to invest</p>
                         </div>
                         <div class="author-info">
                             <figure class="image-box"><img src="images/ZFGD1QX6ixJBu2M1614685412136.jpg" alt=""></figure>
@@ -1060,7 +1060,7 @@ I'm excited already ???a very big thanks to Gold block assets</p>
                     <div class="inner-box">
                         <div class="text">
                             <i class="fas fa-quote-right"></i>
-                            <p>Thank you so much Gold block assets, I don't know how to express my gratitude to you, now I can pay my debt thank you joy Patrick for introducing me to this platform....</p>
+                            <p>Thank you so much {{ $compd ? $compd->companyname : 'company name' }}, I don't know how to express my gratitude to you, now I can pay my debt thank you joy Patrick for introducing me to this platform....</p>
                         </div>
                         <div class="author-info">
                             <figure class="image-box"><img src="images/oUc2zKlgi9PuVb71614686152703.jpg" alt=""></figure>
@@ -1073,7 +1073,7 @@ I'm excited already ???a very big thanks to Gold block assets</p>
                     <div class="inner-box">
                         <div class="text">
                             <i class="fas fa-quote-right"></i>
-                            <p>Finding a good and efficient company as Gold block assets is the best investment platform ever</p>
+                            <p>Finding a good and efficient company as {{ $compd ? $compd->companyname : 'company name' }} is the best investment platform ever</p>
                         </div>
                         <div class="author-info">
                             <figure class="image-box"><img src="images/nA0hBpvim4TQEoD1614786892854.jpg" alt=""></figure>
@@ -1086,7 +1086,7 @@ I'm excited already ???a very big thanks to Gold block assets</p>
                     <div class="inner-box">
                         <div class="text">
                             <i class="fas fa-quote-right"></i>
-                            <p>Gold block assets is our third financial adviser, and a huge improvement on the others in terms of advice and commitment. They are pro-active where the others were not, and has made us focus on our plans for retirement - a huge achievement!</p>
+                            <p>{{ $compd ? $compd->companyname : 'company name' }} is our third financial adviser, and a huge improvement on the others in terms of advice and commitment. They are pro-active where the others were not, and has made us focus on our plans for retirement - a huge achievement!</p>
                         </div>
                         <div class="author-info">
                             <figure class="image-box"><img src="images/19sCyhlwSXpAacu1614765949638.jpg" alt=""></figure>
@@ -1103,7 +1103,7 @@ I'm excited already ???a very big thanks to Gold block assets</p>
 <section class="info-section">
         <div class="auto-container">
             <div class="sec-title centred">
-                <h5>Gold Block Assets</h5>
+                <h5>{{ $compd ? $compd->companyname : 'company name' }}</h5>
                 <h2>Our Happy Clients</h2>
             </div>
                 <div class="row clearfix">
@@ -1181,7 +1181,7 @@ I'm excited already ???a very big thanks to Gold block assets</p>
                                 <div class="icon icon-2 float-bob-y" style="background-image: url(assets/images/icons/anim-icon-3.png);"></div>
                             </div>
                             <div class="sec-title-two">
-                                <h5>Gold Block Assets</h5>
+                                <h5>{{ $compd ? $compd->companyname : 'company name' }}</h5>
                                 <h2>Frequently Asked Questions</h2>
                             </div>
                             <div class="">
@@ -1194,7 +1194,7 @@ I'm excited already ???a very big thanks to Gold block assets</p>
                                                                 <details >
     <summary>How many years has it been functional?</summary>
     <div class="faq__content">
-      <p>In September 2014  Gold block assets was opened to public It has been operating since then and had it first IPO in 2018 where they earned USD76million on GDP They started trading for investors on Real estate Cannabis cryptocurrency oil and gas in 2017 Key traders were working since Administration was hired in the early months of the year 2017 to prepare to start accepting investments from individuals</p>
+      <p>In September 2014  {{ $compd ? $compd->companyname : 'company name' }} was opened to public It has been operating since then and had it first IPO in 2018 where they earned USD76million on GDP They started trading for investors on Real estate Cannabis cryptocurrency oil and gas in 2017 Key traders were working since Administration was hired in the early months of the year 2017 to prepare to start accepting investments from individuals</p>
     </div>
   </details>
                                                                 <details >
@@ -1210,9 +1210,9 @@ I'm excited already ???a very big thanks to Gold block assets</p>
     </div>
   </details>
                                                                 <details >
-    <summary>What is Gold block assets?</summary>
+    <summary>What is {{ $compd ? $compd->companyname : 'company name' }}?</summary>
     <div class="faq__content">
-      <p>Gold block assets is a company that provides a full investment services focused on the real estate cryptocurrency and cannabis our well trained Realtors earn substantial dividends for her investors upon completion of lifespan we are among the best platform to invest and grow your Bitcoin and other cryptocurrency</p>
+      <p>{{ $compd ? $compd->companyname : 'company name' }} is a company that provides a full investment services focused on the real estate cryptocurrency and cannabis our well trained Realtors earn substantial dividends for her investors upon completion of lifespan we are among the best platform to invest and grow your Bitcoin and other cryptocurrency</p>
     </div>
   </details>
                                                                 <details >
@@ -1248,7 +1248,7 @@ I'm excited already ???a very big thanks to Gold block assets</p>
                         <div class="inner-box">
                             <div class="icon-box"><i class="far fa-envelope-open"></i></div>
                             <h3>Email Us</h3>
-                            <p><a href="mailto:support@goldblockassets.com">support@goldblockassets.com</a></p>
+                            <p><a href="mailto:{{ $compd ? $compd->companyemail : 'company email' }}">{{ $compd ? $compd->companyemail : 'company email' }}</a></p>
                         </div>
                     </div>
                 </div>

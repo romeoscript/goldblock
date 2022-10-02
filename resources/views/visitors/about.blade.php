@@ -7,7 +7,7 @@
   <div class="auto-container">
       <div class="content-box clearfix">
           <ul class="bread-crumb clearfix">
-              <li><a href="index-2.html">Gold Block Assets</a></li>
+              <li><a href="index-2.html">{{ $compd ? $compd->companyname : 'company name' }}</a></li>
           </ul>
           <h1>About Us</h1>                
       </div>
@@ -21,21 +21,21 @@
               <div id="content_block_13">
                   <div class="content-box">
                       <div class="sec-title style-four right">
-                          <h5>About Gold Block Assets</h5>
+                          <h5>About {{ $compd ? $compd->companyname : 'company name' }}</h5>
                           <h2>Why Choose Us</h2>
                       </div>
                       <div class="text">
-                          <p>Gold Block Assets is a professional wealth management company with emphasis on Wealth Creation
+                          <p>{{ $compd ? $compd->companyname : 'company name' }} is a professional wealth management company with emphasis on Wealth Creation
                               and Digital Assets. We offer various insured services involved in the Blockchain with our prime interest in
                               Cryptocurrency trading, Real Estate Investment, Oil and Gas, Financial and Investment planning.
 
-Gold Block Assets has qualified and licensed financiers that manages and provides financial consulting services for her investors. 
+{{ $compd ? $compd->companyname : 'company name' }} has qualified and licensed financiers that manages and provides financial consulting services for her investors. 
 We pride ourselves a world class professional customer service, unique trading strategies, optimum transparency and fidelity.
-Any fund you invest with Gold Block Assets is yours and you are free to withdraw your total balance whenever you wish as signed 
+Any fund you invest with {{ $compd ? $compd->companyname : 'company name' }} is yours and you are free to withdraw your total balance whenever you wish as signed 
 in your trading contract.
 
 We have a deal with our Investments Insurance partners, best in the market from USA which trades in our
-Business Enterprise portfolio and in return provides insurance services and elite attorneys for Gold Block Assets.</p>
+Business Enterprise portfolio and in return provides insurance services and elite attorneys for {{ $compd ? $compd->companyname : 'company name' }}.</p>
                       </div>
                       
                       
@@ -103,9 +103,9 @@ Business Enterprise portfolio and in return provides insurance services and elit
                       <div class="lower-content">
                           <h3>John Champagne</h3>
                           <span class="designation">MANAGING DIRECTOR</span>
-                          <p>JOHN M. CHAMPAGNE II, CAIA serves as Managing Director at Gold Block Assets. 
+                          <p>JOHN M. CHAMPAGNE II, CAIA serves as Managing Director at {{ $compd ? $compd->companyname : 'company name' }}. 
                               John’s daily job functions include fund manager due diligence, risk analysis and working
-                              to support the Investment Committee.  Before joining Gold Block Assets, John
+                              to support the Investment Committee.  Before joining {{ $compd ? $compd->companyname : 'company name' }}, John
                               worked as a Senior Hedge Fund Research Associate at Cambridge Associates, LLC in Washington,
                               D.C.
 
@@ -127,7 +127,7 @@ Business Enterprise portfolio and in return provides insurance services and elit
                           <h3>Josh Phillips</h3>
                           <span class="designation">SENIOR ANALYST</span>
                           <p>
-                          Josh Phillips serves as a Senior Analyst at Gold Block Assets. 
+                          Josh Phillips serves as a Senior Analyst at {{ $compd ? $compd->companyname : 'company name' }}. 
                           Josh’s focus it to support the investment team through his due diligence, research and 
                           analytical efforts. Josh is a graduate of Mercer University where he received a BBA
                           in International Business and a minor in Spanish. He graduated top of his major and was
@@ -147,7 +147,7 @@ Business Enterprise portfolio and in return provides insurance services and elit
                           <h3>Ian Greenstreet</h3>
                           <span class="designation">MANAGER</span>
                           <p>Ian Greenstreet is an Investment Banker and international expert in Financial Risk. 
-                              He is one of the managers of Gold Block Assets, a London-based Corporate 
+                              He is one of the managers of {{ $compd ? $compd->companyname : 'company name' }}, a London-based Corporate 
                               Finance firm, approved and regulated by the Financial Conduct Authority. 
                               With over 35 years of experience and insight within the banking and financial 
                               services sector, Ian is a very well networked business executive who leverages 

@@ -7,7 +7,7 @@
     <div class="auto-container">
         <div class="content-box clearfix">
             <ul class="bread-crumb clearfix">
-                <li><a href="index-2.html">Gold Block Assets</a></li>
+                <li><a href="index-2.html">{{ $compd ? $compd->companyname : 'company name' }}</a></li>
             </ul>
             <h1>Real Estate</h1>                
         </div>
@@ -31,7 +31,7 @@
                             <p>Zak Hale 9 | Offered for $620,000 | 4 BR/ 4.5 BA | 2,460 sq. ft. Interior.</p>
                             <a class="btn btn-warning" style="margin-bottom: 5px;" href="{{ route('history') }}"> View Details</a>
                                 <br>
-                                <a class="btn btn-primary" href="mailto:support@goldblockassets.com"> Make An Offer</a>
+                                <a class="btn btn-primary" href="mailto:{{ $compd ? $compd->companyemail : 'company email' }}"> Make An Offer</a>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                                     spa, and detached guest ohana</p>
                             <a class="btn btn-warning" style="margin-bottom: 5px;" href="{{ route('realestateplan') }}"> View Details</a>
                                 <br>
-                                <a class="btn btn-primary" href="mailto:support@goldblockassets.com"> Make An Offer</a>
+                                <a class="btn btn-primary" href="mailto:{{ $compd ? $compd->companyemail : 'company email' }}"> Make An Offer</a>
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                                     Location:Afton oaks</p>
                             <a class="btn btn-warning" style="margin-bottom: 5px;" href="{{ route('realestatetrade') }}"> View Details</a>
                                 <br>
-                                <a class="btn btn-primary" href="mailto:support@goldblockassets.com"> Make An Offer</a>
+                                <a class="btn btn-primary" href="mailto:{{ $compd ? $compd->companyemail : 'company email' }}"> Make An Offer</a>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
                             <p> Bds | 1 Ba | 360 SQFT Location: 225 East 4th Street, Apt 18, New York. </p>
                             <a class="btn btn-warning" style="margin-bottom: 5px;" href="{{ route('landbanking') }}"> View Details</a>
                                 <br>
-                                <a class="btn btn-primary" href="mailto:support@goldblockassets.com"> Make An Offer</a>
+                                <a class="btn btn-primary" href="mailto:{{ $compd ? $compd->companyemail : 'company email' }}"> Make An Offer</a>
                         </div>
                     </div>
                 </div>

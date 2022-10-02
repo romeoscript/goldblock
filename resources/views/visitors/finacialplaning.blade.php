@@ -9,7 +9,7 @@
 	<div class="auto-container">
 		<div class="content-box clearfix">
 			<ul class="bread-crumb clearfix">
-				<li><a href="index-2.html">Gold Block Assets</a></li>
+				<li><a href="index-2.html">{{ $compd ? $compd->companyname : 'company name' }}</a></li>
 			</ul>
 			<h1>Financial Planning</h1>                
 		</div>
@@ -33,7 +33,7 @@
 					<div class="content-style-one">
 						<figure class="image-box"><img src="serv/4.jpg" alt=""></figure>
 						<div class="sec-title left">
-							<h5>Gold Block Assets</h5>
+							<h5>{{ $compd ? $compd->companyname : 'company name' }}</h5>
 							<h2>Financial Planning</h2>
 						</div>
 						<div class="text">
@@ -62,7 +62,7 @@
 					<div class="sidebar-categories">
 						<ul class="categories-list clearfix">
 							<li><a href="services2d2b.html?d=1" class="">Retirement Planning</a></li>
-									<li><a href="estate.html">Real Estate & Investment Management</a></li>
+									<li><a href="{{route('realestate')}}">Real Estate & Investment Management</a></li>
 									<li><a href="{{route('cannabis')}}" class="">Cannabis Investments</a></li>
 									<li><a href="{{route('cryptoplans')}}" class="">Cryptocurrency Trading</a></li>
 									<li><a href="{{route('finacialplaning')}}" class="active">Financial Planning</a></li>
@@ -86,7 +86,7 @@
 							
 															<div class="content-box">
 								<div class="text">
-									<p>Gold block assets is one of the best platform ever, if you are looking for the best company to invest, Gold block assets is the best platform to invest</p>
+									<p>{{ $compd ? $compd->companyname : 'company name' }} is one of the best platform ever, if you are looking for the best company to invest, {{ $compd ? $compd->companyname : 'company name' }} is the best platform to invest</p>
 								</div>
 								<div class="author-info">
 									<figure class="image-box"><img src="images/ZFGD1QX6ixJBu2M1614685412136.jpg" alt=""></figure>
@@ -97,7 +97,7 @@
 							
 															<div class="content-box">
 								<div class="text">
-									<p>So happy about the truthfulness of the company, my withdrawal was approved and my btc sent to my wallet under just few minutes after I requested for a withdrawal, I think you all should invest with Gold block assets</p>
+									<p>So happy about the truthfulness of the company, my withdrawal was approved and my btc sent to my wallet under just few minutes after I requested for a withdrawal, I think you all should invest with {{ $compd ? $compd->companyname : 'company name' }}</p>
 								</div>
 								<div class="author-info">
 									<figure class="image-box"><img src="images/1gB4kVWZLbHyQxF1614696122840.jpg" alt=""></figure>
@@ -108,7 +108,7 @@
 							
 															<div class="content-box">
 								<div class="text">
-									<p>Thank you so much Gold block assets, I don't know how to express my gratitude to you, now I can pay my debt thank you joy Patrick for introducing me to this platform....</p>
+									<p>Thank you so much {{ $compd ? $compd->companyname : 'company name' }}, I don't know how to express my gratitude to you, now I can pay my debt thank you joy Patrick for introducing me to this platform....</p>
 								</div>
 								<div class="author-info">
 									<figure class="image-box"><img src="images/oUc2zKlgi9PuVb71614686152703.jpg" alt=""></figure>
@@ -120,7 +120,7 @@
 															<div class="content-box">
 								<div class="text">
 									<p>I feel like I got a new home.
-Thanks to Gold block assets and also to the administration.</p>
+Thanks to {{ $compd ? $compd->companyname : 'company name' }} and also to the administration.</p>
 								</div>
 								<div class="author-info">
 									<figure class="image-box"><img src="images/BeJZ4LzIiQnXPhp1633981448208.jpg" alt=""></figure>
@@ -131,7 +131,7 @@ Thanks to Gold block assets and also to the administration.</p>
 							
 															<div class="content-box">
 								<div class="text">
-									<p>Like many people, I spend the majority of my time planning for my business, but pay little or no attention to my own finances.Gold block assets (GBA) has developed a personal plan for me that allows me to take much greater control of my financial affairs, and plan for the future. Everything now makes much more sense, and I only wish I had got in touch with GBA sooner!</p>
+									<p>Like many people, I spend the majority of my time planning for my business, but pay little or no attention to my own finances.{{ $compd ? $compd->companyname : 'company name' }} (GBA) has developed a personal plan for me that allows me to take much greater control of my financial affairs, and plan for the future. Everything now makes much more sense, and I only wish I had got in touch with GBA sooner!</p>
 								</div>
 								<div class="author-info">
 									<figure class="image-box"><img src="images/eIyQYP3jH78wuFU1614695859816.jpg" alt=""></figure>

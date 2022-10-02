@@ -7,7 +7,7 @@
     <div class="auto-container">
         <div class="content-box clearfix">
             <ul class="bread-crumb clearfix">
-                <li><a href="index-2.html">Gold Block Assets</a></li>
+                <li><a href="index-2.html">{{ $compd ? $compd->companyname : 'company name' }}</a></li>
             </ul>
             <h1>Real Estate</h1>                
         </div>
@@ -21,7 +21,7 @@
                     <div class="sec-title right">
                         <h5>Asking Price</h5>
                         <h2>$620,000</h2>
-                        <a class="btn btn-primary" href="mailto:support@goldblockassets.com"> Make An Offer</a>
+                        <a class="btn btn-primary" href="mailto:{{ $compd ? $compd->companyemail : 'company email' }}"> Make An Offer</a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 text-column">

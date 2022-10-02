@@ -34,7 +34,7 @@
                   <div class="inner-box">
                       <div class="icon-box"><i class="far fa-envelope-open"></i></div>
                       <h3>Email Us</h3>
-                      <p><a href="mailto:support@goldblockassets.com">support@goldblockassets.com</a></p>
+                      <p><a href="mailto:{{ $compd ? $compd->companyemail : 'company email' }}">{{ $compd ? $compd->companyemail : 'company email' }}</a></p>
                   </div>
               </div>
           </div>

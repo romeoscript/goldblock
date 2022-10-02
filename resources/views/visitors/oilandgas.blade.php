@@ -7,7 +7,7 @@
     <div class="auto-container">
         <div class="content-box clearfix">
             <ul class="bread-crumb clearfix">
-                <li><a href="index-2.html">Gold Block Assets</a></li>
+                <li><a href="index-2.html">{{ $compd ? $compd->companyname : 'company name' }}</a></li>
             </ul>
             <h1>Oil And Gas</h1>                
         </div>

@@ -9,7 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-<title>Retirement Planning | Gold Block Assets | Bitcoin Investment | Cryptocurrency Investment | Etherium Investment</title>
+<title>Retirement Planning | {{ $compd ? $compd->companyname : 'company name' }} | Bitcoin Investment | Cryptocurrency Investment | Etherium Investment</title>
 
 <!-- Fav Icon -->
 <link rel="icon" href="images/logo-icon-b.html" type="image/x-icon">
@@ -275,7 +275,7 @@ figure {
                                     <li class="dropdown"><a href="#">Services</a>
                                         <ul>
                                             <li><a href="services2d2b.html?d=1">Retirement Planning</a></li>
-                                        <li><a href="estate.html">Real Estate & Investment Management</a></li>
+                                        <li><a href="{{route('realestate')}}">Real Estate & Investment Management</a></li>
                                         <li><a href="{{route('cannabis')}}">Cannabis Investments</a></li>
                                         <li><a href="{{route('cryptoplans')}}">Cryptocurrency Trading</a></li>
                                         <li><a href="{{route('finacialplaning')}}">Financial Planning</a></li>
@@ -334,7 +334,7 @@ figure {
                 <ul>
                     <li>Flat 41 Brookfield Farm, Curzon St, Lbstock, United Kingddom, LE67 6LA</li>
                     <li><a href="tel:045 667- 7547">045 667- 7547</a></li>
-                    <li><a href="mailto:support@goldblockassets.com">support@goldblockassets.com</a></li>
+                    <li><a href="mailto:{{ $compd ? $compd->companyemail : 'company email' }}">{{ $compd ? $compd->companyemail : 'company email' }}</a></li>
                 </ul>
             </div>
             
@@ -347,7 +347,7 @@ figure {
         <div class="auto-container">
             <div class="content-box clearfix">
                 <ul class="bread-crumb clearfix">
-                    <li><a href="index-2.html">Gold Block Assets</a></li>
+                    <li><a href="index-2.html">{{ $compd ? $compd->companyname : 'company name' }}</a></li>
                 </ul>
                 <h1>Retirement Planning</h1>                
             </div>
@@ -362,12 +362,12 @@ figure {
                         <div class="content-style-one">
                             <figure class="image-box"><img src="serv/1.jpg" alt=""></figure>
                             <div class="sec-title left">
-                                <h5>Gold Block Assets</h5>
+                                <h5>{{ $compd ? $compd->companyname : 'company name' }}</h5>
                                 <h2>Workforce Optimization</h2>
                             </div>
                             <div class="text">
                                 <p>
-                                Saving for retirement can be a daunting task, but with a sound strategy, it’s well within reach. Gold Block Assets is here to
+                                Saving for retirement can be a daunting task, but with a sound strategy, it’s well within reach. {{ $compd ? $compd->companyname : 'company name' }} is here to
                                 bring clarity to retirement 
                                 planning and set you on your path to success. Here you’ll better understand your options and find the right investment.
                                 </p>
@@ -382,7 +382,7 @@ figure {
                             </div>
                             <div class="text">
                                 <p>
-                                Gold Block Assets study of worldwide retirement saving habits 
+                                {{ $compd ? $compd->companyname : 'company name' }} study of worldwide retirement saving habits 
                                 discovered that people with some kind of retirement plan have more than three times 
                                 as much in their nest egg than those with no plan at all.
 
@@ -417,7 +417,7 @@ your retirement savings.
                         <div class="sidebar-categories">
                             <ul class="categories-list clearfix">
                                 <li><a href="services2d2b.html?d=1" class="active">Retirement Planning</a></li>
-                                        <li><a href="estate.html">Real Estate & Investment Management</a></li>
+                                        <li><a href="{{route('realestate')}}">Real Estate & Investment Management</a></li>
                                         <li><a href="{{route('cannabis')}}" class="">Cannabis Investments</a></li>
                                         <li><a href="{{route('cryptoplans')}}" class="">Cryptocurrency Trading</a></li>
                                         <li><a href="{{route('finacialplaning')}}" class="">Financial Planning</a></li>
@@ -452,7 +452,7 @@ your retirement savings.
                                 
                                                                 <div class="content-box">
                                     <div class="text">
-                                        <p>Thank you so much Gold block assets, I don't know how to express my gratitude to you, now I can pay my debt thank you joy Patrick for introducing me to this platform....</p>
+                                        <p>Thank you so much {{ $compd ? $compd->companyname : 'company name' }}, I don't know how to express my gratitude to you, now I can pay my debt thank you joy Patrick for introducing me to this platform....</p>
                                     </div>
                                     <div class="author-info">
                                         <figure class="image-box"><img src="images/oUc2zKlgi9PuVb71614686152703.jpg" alt=""></figure>
@@ -463,7 +463,7 @@ your retirement savings.
                                 
                                                                 <div class="content-box">
                                     <div class="text">
-                                        <p>GBA provides an excellent service be it on a business or on a personal level I have found the company's advice regarding investment opportunities particularly helpful - everything is explained fully no matter how complex the subject. I am pleased to see the results in comparison to the experiences one reads or hears about  I get the feeling that Gold block assets are ahead of the game.</p>
+                                        <p>GBA provides an excellent service be it on a business or on a personal level I have found the company's advice regarding investment opportunities particularly helpful - everything is explained fully no matter how complex the subject. I am pleased to see the results in comparison to the experiences one reads or hears about  I get the feeling that {{ $compd ? $compd->companyname : 'company name' }} are ahead of the game.</p>
                                     </div>
                                     <div class="author-info">
                                         <figure class="image-box"><img src="images/GaNLeqO85WMcJ4m1614691346138.jpg" alt=""></figure>
@@ -474,7 +474,7 @@ your retirement savings.
                                 
                                                                 <div class="content-box">
                                     <div class="text">
-                                        <p>Gold block assets is our third financial adviser, and a huge improvement on the others in terms of advice and commitment. They are pro-active where the others were not, and has made us focus on our plans for retirement - a huge achievement!</p>
+                                        <p>{{ $compd ? $compd->companyname : 'company name' }} is our third financial adviser, and a huge improvement on the others in terms of advice and commitment. They are pro-active where the others were not, and has made us focus on our plans for retirement - a huge achievement!</p>
                                     </div>
                                     <div class="author-info">
                                         <figure class="image-box"><img src="images/19sCyhlwSXpAacu1614765949638.jpg" alt=""></figure>
@@ -485,7 +485,7 @@ your retirement savings.
                                 
                                                                 <div class="content-box">
                                     <div class="text">
-                                        <p>A big thank you to Gold block assets, I have been receiving my payout every week, thanks once more</p>
+                                        <p>A big thank you to {{ $compd ? $compd->companyname : 'company name' }}, I have been receiving my payout every week, thanks once more</p>
                                     </div>
                                     <div class="author-info">
                                         <figure class="image-box"><img src="images/T1PV3oYzB20MvNg1614685705649.jpg" alt=""></figure>
@@ -623,16 +623,16 @@ your retirement savings.
                                 
                                 <ul class="info-list clearfix">
                                     <li><i class="fas fa-map-marker-alt"></i>Flat 41 Brookfield Farm, Curzon St, Lbstock, United Kingddom, LE67 6LA</li>
-                                    <li><i class="fas fa-envelope"></i>Email <a href="mailto:support@goldblockassets.com">support@goldblockassets.com</a></li>
+                                    <li><i class="fas fa-envelope"></i>Email <a href="mailto:{{ $compd ? $compd->companyemail : 'company email' }}">{{ $compd ? $compd->companyemail : 'company email' }}</a></li>
                                     <li><i class="fas fa-globe"></i>Website goldblockassets.com</li>
-                                    <li><a class="theme-btn style-one" href="https://find-and-update.company-information.service.gov.uk/company/13485600">Company Number: 13485600</a></li>
+                                    <li><a class="theme-btn style-one" href="https://find-and-update.company-information.service.gov.uk/company/{{ $compd ? $compd->companyphone : 'company phone' }}">Company Number: {{ $compd ? $compd->companyphone : 'company phone' }}</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div class="footer-widget links-widget ml-70">
                                 <div class="widget-title">
-                                    <h4>Gold Block Assets</h4>
+                                    <h4>{{ $compd ? $compd->companyname : 'company name' }}</h4>
                                 </div>
                                 <div class="widget-content">
                                     <ul class="list clearfix">
@@ -656,7 +656,7 @@ your retirement savings.
                                 <div class="widget-content">
                                     <ul class="list clearfix">
                                         <li><a href="services2d2b.html?d=1">Retirement Planning</a></li>
-                                        <li><a href="estate.html">Real Estate & Investment Management</a></li>
+                                        <li><a href="{{route('realestate')}}">Real Estate & Investment Management</a></li>
                                         <li><a href="{{route('cannabis')}}">Cannabis Investments</a></li>
                                         <li><a href="{{route('cryptoplans')}}">Cryptocurrency Trading</a></li>
                                         <li><a href="{{route('finacialplaning')}}">Financial Planning</a></li>
@@ -678,7 +678,7 @@ your retirement savings.
                                         <li><a href="faq.html">FAQ's</a></li>
                                         <li><a href="{{route('login')}}">Our Plans</a></li>
                                         <li><a href="{{ route('contact') }}">Contact Us</a></li>
-                                        <li><a href="estate.html">Real Estate</a></li>
+                                        <li><a href="{{route('realestate')}}">Real Estate</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -700,7 +700,7 @@ your retirement savings.
                                 
                                 <div class="text">
                                     <p>
-                                        Gold Block Assets is a member of The Financial Commission, an international organization engaged in 
+                                        {{ $compd ? $compd->companyname : 'company name' }} is a member of The Financial Commission, an international organization engaged in 
                          the resolution of disputes within the financial services industry in the Forex market.
                                     </p> 
                                 </div>
@@ -723,11 +723,11 @@ your retirement savings.
                                 
                                 <div class="text">
                                     <p>
-                                        Gold Block Assets is regulated by the US Securities and Exchange Commission. The mission of the SEC is to protect 
+                                        {{ $compd ? $compd->companyname : 'company name' }} is regulated by the US Securities and Exchange Commission. The mission of the SEC is to protect 
                          investors; maintain fair, 
                          orderly, and efficient markets; and facilitate capital formation.
                          
-                         Gold Block Assets is an investment company that . Direct access to over 50 financial markets 
+                         {{ $compd ? $compd->companyname : 'company name' }} is an investment company that . Direct access to over 50 financial markets 
                          through one account. Any information contained on this website is provided to you for informational 
                          purposes only and should not be regarded as an offer or solicitation of an offer to buy or sell any 
                          investments or related services that may be referenced here. Investing in certain instruments, 
@@ -737,10 +737,10 @@ your retirement savings.
                          as up.
                          
                          
-                         Gold Block Assets is a registered investment dealer, a member of the 
+                         {{ $compd ? $compd->companyname : 'company name' }} is a registered investment dealer, a member of the 
                          United States Securities and Exchange Commission (SEC), the Investment Industry Regulatory Organization of Canada 
                          (IIROC) and a member of the Canadian Investor Protection Fund (CIPF), the benefits of which are limited to the 
-                         activities undertaken by Gold Block Assets.
+                         activities undertaken by {{ $compd ? $compd->companyname : 'company name' }}.
                                     </p> 
                                 </div>
                                 
@@ -753,7 +753,7 @@ your retirement savings.
         </div>
         <div class="footer-bottom">
             <div class="auto-container">
-                <div class="copyright"><p>&copy; 2017 - 2022 <a href="index-2.html">Gold Block Assets</a> . All rights reserved.</p></div>
+                <div class="copyright"><p>&copy; 2017 - 2022 <a href="index-2.html">{{ $compd ? $compd->companyname : 'company name' }}</a> . All rights reserved.</p></div>
             </div>
         </div>
     </footer>

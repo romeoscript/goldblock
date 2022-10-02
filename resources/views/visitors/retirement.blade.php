@@ -7,7 +7,7 @@
 	<div class="auto-container">
 		<div class="content-box clearfix">
 			<ul class="bread-crumb clearfix">
-				<li><a href="index-2.html">Gold Block Assets</a></li>
+				<li><a href="index-2.html">{{ $compd ? $compd->companyname : 'company name' }}</a></li>
 			</ul>
 			<h1>Retirement Planning</h1>                
 		</div>
@@ -22,12 +22,12 @@
 					<div class="content-style-one">
 						<figure class="image-box"><img src="serv/1.jpg" alt=""></figure>
 						<div class="sec-title left">
-							<h5>Gold Block Assets</h5>
+							<h5>{{ $compd ? $compd->companyname : 'company name' }}</h5>
 							<h2>Workforce Optimization</h2>
 						</div>
 						<div class="text">
 							<p>
-							Saving for retirement can be a daunting task, but with a sound strategy, it’s well within reach. Gold Block Assets is here to
+							Saving for retirement can be a daunting task, but with a sound strategy, it’s well within reach. {{ $compd ? $compd->companyname : 'company name' }} is here to
 							bring clarity to retirement 
 							planning and set you on your path to success. Here you’ll better understand your options and find the right investment.
 							</p>
@@ -42,7 +42,7 @@
 						</div>
 						<div class="text">
 							<p>
-							Gold Block Assets study of worldwide retirement saving habits 
+							{{ $compd ? $compd->companyname : 'company name' }} study of worldwide retirement saving habits 
 							discovered that people with some kind of retirement plan have more than three times 
 							as much in their nest egg than those with no plan at all.
 
@@ -77,7 +77,7 @@ your retirement savings.
 					<div class="sidebar-categories">
 						<ul class="categories-list clearfix">
 							<li><a href="services2d2b.html?d=1" class="active">Retirement Planning</a></li>
-									<li><a href="estate.html">Real Estate & Investment Management</a></li>
+									<li><a href="{{route('realestate')}}">Real Estate & Investment Management</a></li>
 									<li><a href="{{route('cannabis')}}" class="">Cannabis Investments</a></li>
 									<li><a href="{{route('cryptoplans')}}" class="">Cryptocurrency Trading</a></li>
 									<li><a href="{{route('finacialplaning')}}" class="">Financial Planning</a></li>
@@ -112,7 +112,7 @@ your retirement savings.
 							
 															<div class="content-box">
 								<div class="text">
-									<p>Thank you so much Gold block assets, I don't know how to express my gratitude to you, now I can pay my debt thank you joy Patrick for introducing me to this platform....</p>
+									<p>Thank you so much {{ $compd ? $compd->companyname : 'company name' }}, I don't know how to express my gratitude to you, now I can pay my debt thank you joy Patrick for introducing me to this platform....</p>
 								</div>
 								<div class="author-info">
 									<figure class="image-box"><img src="images/oUc2zKlgi9PuVb71614686152703.jpg" alt=""></figure>
@@ -123,7 +123,7 @@ your retirement savings.
 							
 															<div class="content-box">
 								<div class="text">
-									<p>GBA provides an excellent service be it on a business or on a personal level I have found the company's advice regarding investment opportunities particularly helpful - everything is explained fully no matter how complex the subject. I am pleased to see the results in comparison to the experiences one reads or hears about  I get the feeling that Gold block assets are ahead of the game.</p>
+									<p>GBA provides an excellent service be it on a business or on a personal level I have found the company's advice regarding investment opportunities particularly helpful - everything is explained fully no matter how complex the subject. I am pleased to see the results in comparison to the experiences one reads or hears about  I get the feeling that {{ $compd ? $compd->companyname : 'company name' }} are ahead of the game.</p>
 								</div>
 								<div class="author-info">
 									<figure class="image-box"><img src="images/GaNLeqO85WMcJ4m1614691346138.jpg" alt=""></figure>
@@ -134,7 +134,7 @@ your retirement savings.
 							
 															<div class="content-box">
 								<div class="text">
-									<p>Gold block assets is our third financial adviser, and a huge improvement on the others in terms of advice and commitment. They are pro-active where the others were not, and has made us focus on our plans for retirement - a huge achievement!</p>
+									<p>{{ $compd ? $compd->companyname : 'company name' }} is our third financial adviser, and a huge improvement on the others in terms of advice and commitment. They are pro-active where the others were not, and has made us focus on our plans for retirement - a huge achievement!</p>
 								</div>
 								<div class="author-info">
 									<figure class="image-box"><img src="images/19sCyhlwSXpAacu1614765949638.jpg" alt=""></figure>
@@ -145,7 +145,7 @@ your retirement savings.
 							
 															<div class="content-box">
 								<div class="text">
-									<p>A big thank you to Gold block assets, I have been receiving my payout every week, thanks once more</p>
+									<p>A big thank you to {{ $compd ? $compd->companyname : 'company name' }}, I have been receiving my payout every week, thanks once more</p>
 								</div>
 								<div class="author-info">
 									<figure class="image-box"><img src="images/T1PV3oYzB20MvNg1614685705649.jpg" alt=""></figure>

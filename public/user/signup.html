@@ -7,7 +7,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Register New Account | Gold Block Assets </title>
+    <title>Register New Account | {{ $compd ? $compd->companyname : 'company name' }} </title>
     <meta name="theme-color" content="#222437">
     <!-- plugins:css -->
     <link rel="stylesheet" href="assets/vendors/flag-icon-css/css/flag-icon.min.css">
@@ -473,7 +473,7 @@ body {
                       <button type="submit" name='create'  class="btn btn-primary submit-btn">SIGN UP <i class="fa fa-user-plus"></i></button>
                   </div>
                   <div class="wrapper mt-5 text-gray">
-                    <p class="footer-text">Copyright © 2022 Gold Block Assets. All rights reserved.</p>
+                    <p class="footer-text">Copyright © 2022 {{ $compd ? $compd->companyname : 'company name' }}. All rights reserved.</p>
                     <ul class="auth-footer text-gray">
                       <li>
                           <a href="../about.html">About Us</a>
