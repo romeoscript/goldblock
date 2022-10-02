@@ -45,7 +45,7 @@
                             <p>This stunning modern-styled townhome located within the private 
                                     golf and ocean club community of Kohanaiki is a 4 BR/ 4.5 BA dream with a lounge pool, 
                                     spa, and detached guest ohana</p>
-                            <a class="btn btn-warning" style="margin-bottom: 5px;" href="estateb558.html?d=3"> View Details</a>
+                            <a class="btn btn-warning" style="margin-bottom: 5px;" href="{{ route('realestateplan') }}"> View Details</a>
                                 <br>
                                 <a class="btn btn-primary" href="mailto:support@goldblockassets.com"> Make An Offer</a>
                         </div>
@@ -60,7 +60,7 @@
                             <h3>$350,000</h3>
                             <p>4/5.5/2 |5,472 sqft |8,060 sqft lot
                                     Location:Afton oaks</p>
-                            <a class="btn btn-warning" style="margin-bottom: 5px;" href="estate2d2b.html?d=1"> View Details</a>
+                            <a class="btn btn-warning" style="margin-bottom: 5px;" href="{{ route('realestatetrade') }}"> View Details</a>
                                 <br>
                                 <a class="btn btn-primary" href="mailto:support@goldblockassets.com"> Make An Offer</a>
                         </div>
