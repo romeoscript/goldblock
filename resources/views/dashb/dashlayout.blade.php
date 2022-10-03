@@ -345,7 +345,7 @@
             </span>
               </a>
               <ul class="treeview-menu">
-                <li><a href="../samplepage/login.html">google authentication</a></li>
+                <li><a href="../samplepage/{{route('login')}}">google authentication</a></li>
 
               </ul>
             </li>

@@ -262,7 +262,7 @@ figure {
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
                                     
-                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="{{route('about')}}">About Us</a></li>
                                     
                                     <li class="dropdown"><a href="#">Investments</a>
                                         <ul>
@@ -406,7 +406,7 @@ figure {
                         <h6 class="text-white mbt-1">You have dreams. We have a culturally diverse, forward thinking team ready to help you achieve your dreams.</h6>
                         <div class="btn-box">
                             <a href="{{route('register')}}" class="theme-btn style-one mr-10">Create An Account</a>
-                            <a href="about.html" class="banner-btn-two">Explore</a>
+                            <a href="{{route('about')}}" class="banner-btn-two">Explore</a>
                         </div>
                     </div>  
                 </div>
@@ -491,7 +491,7 @@ figure {
                                             <p>Our investors are confident in our ability to make a promise and fulfill that promise. We go beyond our promise 
                                                 to put smiles on the faces of our clients. 
                                                 We have investors from all over the world, who have been with us for over seven years now and counting.</p>
-                                            <a href="about.html"><i class="fas fa-arrow-right"></i><span>Read More</span></a>
+                                            <a href="{{route('about')}}"><i class="fas fa-arrow-right"></i><span>Read More</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1730,7 +1730,7 @@ I'm excited already ???a very big thanks to {{ $compd ? $compd->companyname : 'c
                                     <ul class="list clearfix">
                                         <li><a href="{{route('register')}}">Create Account</a></li>
                                         <li><a href="{{route('login')}}">Login</a></li>
-                                        <li><a href="user/password.html">Forgot Password</a></li>
+                                        <li><a href="user/{{route('password.request')}}">Forgot Password</a></li>
                                         <li><a href="{{route('terms')}}">Terms of Use</a></li>
                                         <li><a href="{{route('legal')}}">Legal</a></li>
                                         <li><a href="{{route('policy')}}">Privacy Policy</a></li>
@@ -1765,7 +1765,7 @@ I'm excited already ???a very big thanks to {{ $compd ? $compd->companyname : 'c
                                 </div>
                                 <div class="widget-content">
                                     <ul class="list clearfix">
-                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="{{route('about')}}">About Us</a></li>
                                         <li><a href="service.html">What We Offers</a></li>
                                         <li><a href="faq.html">FAQ's</a></li>
                                         <li><a href="{{route('login')}}">Our Plans</a></li>

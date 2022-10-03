@@ -98,7 +98,7 @@
                 <div class="auto-form-wrapper d-flex align-items-center justify-content-center flex-column">
                     <div class="nav-get-started">
                         <p>Already have an account?</p>
-                        <a class="btn get-started-btn" href="login.html">SIGN IN</a>
+                        <a class="btn get-started-btn" href="{{route('login')}}">SIGN IN</a>
                     </div>
                     <form method="POST" action="{{ route('register') }}" onsubmit="process(event)">
 
@@ -470,7 +470,7 @@
                                 {{-- {{ $compd ? $compd->companyname : 'company name' }}. All rights reserved.</p> --}}
                             <ul class="auth-footer text-gray">
                                 <li>
-                                    <a href="../about.html">About Us</a>
+                                    <a href="../{{route('about')}}">About Us</a>
                                 </li>
                                 <li>
                                     <a href="../{{ route('terms') }}">Terms & Conditions</a>

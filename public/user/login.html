@@ -181,7 +181,7 @@ body {
                       <input class="form-control" type=password name="password" placeholder="Password*">
                     </div>
                   </div>
-                  <p class='text-warning'><a href='password.html'>Forgot Password?</a></p>
+                  <p class='text-warning'><a href='{{route('password.request')}}'>Forgot Password?</a></p>
                   <div class="form-group">
                       <button type="submit" name="login" class="btn btn-primary submit-btn">SIGN IN <i class="fa fa-sign-in"></i></button>
                   </div>
@@ -189,7 +189,7 @@ body {
                     <p class="footer-text">Copyright © 2022 {{ $compd ? $compd->companyname : 'company name' }}. All rights reserved.</p>
                     <ul class="auth-footer text-gray">
                       <li>
-                          <a href="../about.html">About Us</a>
+                          <a href="../{{route('about')}}">About Us</a>
                       </li>
                       <li>
                         <a href="../{{route('terms')}}">Terms & Conditions</a>
