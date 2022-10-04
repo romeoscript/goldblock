@@ -98,10 +98,10 @@
                 <div class="auto-form-wrapper d-flex align-items-center justify-content-center flex-column">
                     <div class="nav-get-started">
                         <p>Already have an account?</p>
-                        <a class="btn get-started-btn" href="{{route('login')}}">SIGN IN</a>
+                        <a class="btn get-started-btn" href="{{ route('login') }}">SIGN IN</a>
                     </div>
                     <form method="POST" action="{{ route('register') }}" onsubmit="process(event)">
-
+                        @csrf
                         <a href='..//'>
                             <img alt="" src="../images/logo.png" style='height: 40px; width: auto;'>
                         </a>
@@ -120,9 +120,10 @@
                                         <i class="fa fa-user"></i>
                                     </span>
                                 </div>
-                                <input type="text" class="form-control name-input input @error('name') is-invalid @enderror" name="name"
+                                <input type="text"
+                                    class="form-control name-input input @error('name') is-invalid @enderror" name="name"
                                     placeholder="Name*" id="name" value="{{ old('name') }}" autocomplete="name">
-                                    @error('name')
+                                @error('name')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
@@ -130,7 +131,7 @@
                             </div>
                         </div>
                         {{-- name done --}}
-                        
+
                         <div class="form-group">
                             <div class="input-group">
                                 <div class="input-group-prepend">
@@ -138,8 +139,8 @@
                                         <i class="fa fa-phone"></i>
                                     </span>
                                 </div>
-                                <input type="phone" class="form-control number-input input" id="phone" name="phone" required
-                                autocomplete="phone" placeholder="enter phone" >
+                                <input type="phone" class="form-control number-input input" id="phone" name="phone"
+                                    required autocomplete="phone" placeholder="enter phone">
                             </div>
                         </div>
 
@@ -151,18 +152,20 @@
                                         <i class="fa fa-envelope"></i>
                                     </span>
                                 </div>
-                                <input type="email" class="form-control email-input input @error('email') is-invalid @enderror" placeholder="Email*"
-                                id="email" name="email" value="{{ old('email') }}" required autocomplete="email">
+                                <input type="email"
+                                    class="form-control email-input input @error('email') is-invalid @enderror"
+                                    placeholder="Email*" id="email" name="email" value="{{ old('email') }}" required
+                                    autocomplete="email">
                                 @error('email')
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                            @enderror
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </div>
                         </div>
                         {{-- email done --}}
 
-            
+
                         <div class="form-group">
                             <div class="input-group">
                                 <div class="input-group-prepend">
@@ -170,7 +173,8 @@
                                         <i class="fa fa-globe"></i>
                                     </span>
                                 </div>
-                                <select class="form-control country-input input" name="country" id="country" autocomplete="country" required>
+                                <select class="form-control country-input input" name="country" id="country"
+                                    autocomplete="country" required>
                                     <option value="">Select Country</option>
                                     <option value="Afganistan">Afghanistan</option>
                                     <option value="Albania">Albania</option>
@@ -422,7 +426,7 @@
                             </div>
                         </div>
                         {{-- country done --}}
-                        
+
 
                         <div class="form-group row" style="margin-left: 0px; margin-right: 0px;">
                             <div class="col-md-6 mb-4 mb-md-0" style="padding-left: 0px; padding-right: 1px;">
@@ -432,9 +436,11 @@
                                             <i class="fa fa-lock"></i>
                                         </span>
                                     </div>
-                                    <input type="password" class="form-control email-input input @error('password') is-invalid @enderror"
-                                    id="password" name="password" required autocomplete="new-password"  placeholder="Password*">
-                                    
+                                    <input type="password"
+                                        class="form-control email-input input @error('password') is-invalid @enderror"
+                                        id="password" name="password" required autocomplete="new-password"
+                                        placeholder="Password*">
+
                                 </div>
                             </div>
                             <div class="col-md-6 " style="padding-left: 1px; padding-right: 0px;">
@@ -445,7 +451,8 @@
                                         </span>
                                     </div>
                                     <input type="password" class="form-control email-input input" id="confirmPassword"
-                                    name="password_confirmation" required autocomplete="new-password" placeholder="Retype Password*" >
+                                        name="password_confirmation" required autocomplete="new-password"
+                                        placeholder="Retype Password*">
 
                                 </div>
                             </div>
@@ -462,7 +469,8 @@
                             </div>
                         </div> --}}
                         <div class="form-group">
-                            <button href="{{ route('register') }}" type="submit" class="signup-footer-cta btn btn-primary submit-btn">SIGN UP
+                            <button href="{{ route('register') }}" type="submit"
+                                class="signup-footer-cta btn btn-primary submit-btn">SIGN UP
                                 <i class="fa fa-user-plus"></i></button>
                         </div>
                         <div class="wrapper mt-5 text-gray">
@@ -470,7 +478,7 @@
                                 {{-- {{ $compd ? $compd->companyname : 'company name' }}. All rights reserved.</p> --}}
                             <ul class="auth-footer text-gray">
                                 <li>
-                                    <a href="../{{route('about')}}">About Us</a>
+                                    <a href="../{{ route('about') }}">About Us</a>
                                 </li>
                                 <li>
                                     <a href="../{{ route('terms') }}">Terms & Conditions</a>

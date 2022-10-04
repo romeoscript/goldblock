@@ -557,7 +557,7 @@
     </script>
 
     <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
+    {{-- <script type="text/javascript">
         var Tawk_API = Tawk_API || {},
             Tawk_LoadStart = new Date();
         (function() {
@@ -569,7 +569,8 @@
             s1.setAttribute('crossorigin', '*');
             s0.parentNode.insertBefore(s1, s0);
         })();
-    </script>
+    </script> --}}
+    <script src="//code.tidio.co/b0ny6mm7v4aiidjnnsehrrqqkfbvahga.js" async></script>
     <!--End of Tawk.to Script-->
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/popper.min.js"></script>
