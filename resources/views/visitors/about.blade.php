@@ -47,7 +47,7 @@ Business Enterprise portfolio and in return provides insurance services and elit
                   <div class="image-box">
                       <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-23.png);"></div>
                       <figure class="image wow slideInRight animated animated animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: slideInRight;">
-                          <img src="images/faq.jpg" alt="">
+                          <img src="images/faq.jpeg" alt="">
                       </figure>
                   </div>
               </div>

@@ -280,7 +280,7 @@
                 <div class="outer-box clearfix">
                     <div class="logo-box pull-left">
                         <figure class="logo"><a href="/"><img src="images/logo.png"
-                                    style="height: 38px; width: auto;" alt="" title=""></a></figure>
+                                    style="height: 78px; width: auto;" alt="" title=""></a></figure>
                     </div>
                     <div class="menu-area pull-right">
                         <!--Mobile Navigation Toggler-->

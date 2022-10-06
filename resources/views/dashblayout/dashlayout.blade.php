@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title> FUNDFLUX </title>
+    <title> Future optimax </title>
     <meta name="theme-color" content="#282744">
     <!-- plugins:css -->
     <link rel="stylesheet" href="{{asset('dashb/assets/vendors/flag-icon-css/css/flag-icon.min.css')}}">
@@ -20,7 +20,7 @@
     <!-- Layout styles -->
     <link rel="stylesheet" href="{{asset('dashb/assets/css/demo_3/style.css')}}">
     <!-- End Layout styles -->
-     <link rel="shortcut icon" href="{{asset('dashb/images/fundflux.png')}}" />
+     <link rel="shortcut icon" href="{{asset('dashb/images/Future optimax.png')}}" />
     <script src="https://kit.fontawesome.com/a076d05399.js')}}"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
@@ -232,16 +232,16 @@ input[type="radio"][class="myRadio"] {
       <!-- partial:../../partials/_navbar.html -->
       <div id="loader"  class="text-center" style="position:fixed; display: none; left: 0; right: 0; top: 0; bottom: 0; z-index: 9999; background-color: #222437; opacity: 0.855;">
             <div class="text-info text-center">
-                <img class="" style=" position: absolute; top: 50%; left: 50%; margin-top: -40px; margin-left: -40px;" src="{{asset('dashb/images/fundflux.png')}}" height="auto" width="60px">
+                <img class="" style=" position: absolute; top: 50%; left: 50%; margin-top: -40px; margin-left: -40px;" src="{{asset('dashb/images/Future optimax.png')}}" height="auto" width="60px">
             </div>
         </div>
 <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
           <a class="navbar-brand brand-logo" href="{{route('index')}}">
-            <img alt="" src="{{asset('dashb/images/fundflux.png')}}" style='height: 40px; width: auto;'>
+            <img alt="" src="{{asset('dashb/images/Future optimax.png')}}" style='height: 40px; width: auto;'>
           </a>
           <a class="navbar-brand brand-logo-mini" href="{{route('dash_index')}}">
-            <img alt="" src="{{asset('dashb/images/fundflux.png')}}" style='height: 40px; width: auto;'>
+            <img alt="" src="{{asset('dashb/images/Future optimax.png')}}" style='height: 40px; width: auto;'>
           </a>
         </div>
         <div class="navbar-menu-wrapper d-flex align-items-center">
@@ -584,7 +584,7 @@ input[type="radio"][class="myRadio"] {
    
         <footer class="footer" style="position: fixed;bottom:0;width:100%;">
             <div class="container-fluid clearfix">
-                <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2022 <a href="{{route('index')}}">FUNDFLUX </a>. All rights reserved.</span>
+                <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2022 <a href="{{route('index')}}">Future optimax </a>. All rights reserved.</span>
               <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"><i class="fa fa-user"></i> {{Auth::user()->name}}             </span>
             </div>
           </footer>            

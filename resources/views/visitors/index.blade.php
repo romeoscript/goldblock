@@ -531,23 +531,26 @@
                 <div class="tabs-content">
                     <div class="tab active-tab" id="tab-6">
                         <div class="row clearfix">
+                            @if ($investmentplans)
+                                @foreach ($investmentplans as $price)
                             <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                                
                                 <div class="pricing-block-one active-block">
                                     <div class="pricing-table">
                                         <div class="table-header" style="padding: 12px 0px 5px 0px; border: none;">
-                                            <h3>Beginner</h3>
+                                            <h3>{{ $price->name }}</h3>
                                             <div class="price-box" style="margin-bottom: 0px;">
                                                 <span>Stake your USDT, BITCOIN, BUSD, LTC...</span>
-                                                <h2>1.43%</h2>
-                                                <p>Daily Profit</p>
+                                                <h2>{{ $price->noofrepeat }}+</h2>
+                                                <p>Duration</p>
                                             </div>
                                         </div>
                                         <div class="table-content">
                                             <ul class="clearfix">
-                                                <li>Minimum Deposit <b class="text-primary">$100.00</b></li>
-                                                <li>Maximum Deposit <b class="text-primary">$3,000.00</b></li>
-                                                <li>Total Profit <b class="text-primary">10%</b></li>
-                                                <li>Referral Bonus <b class="text-primary">15%</b></li>
+                                                <li>Minimum Deposit <b class="text-primary">${{ $price->minimum }}</b></li>
+                                                <li>Maximum Deposit <b class="text-primary">${{ $price->maximum }}</b></li>
+                                                <li>Total Profit <b class="text-primary">{{ $price->percentage * $price->noofrepeat }}%</b></li>
+                                                <li>Referral Bonus <b class="text-primary">{{ $price->refpercent}}%</b></li>
                                                 <li>Withdrawal <b class="text-primary">Weekly</b></li>
                                             </ul>
                                         </div>
@@ -557,8 +560,11 @@
                                         </div>
                                     </div>
                                 </div>
+                                
                             </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                            @endforeach
+                                @endif
+                            {{-- <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
                                 <div class="pricing-block-one active-block">
                                     <div class="pricing-table">
                                         <div class="table-header" style="padding: 12px 0px 5px 0px; border: none;">
@@ -584,8 +590,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                            </div> --}}
+                            {{-- <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
                                 <div class="pricing-block-one active-block">
                                     <div class="pricing-table">
                                         <div class="table-header" style="padding: 12px 0px 5px 0px; border: none;">
@@ -613,26 +619,26 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab " id="tab-5">
+                    </div> --}}
+                    {{-- <div class="tab " id="tab-5">
                         <div class="row clearfix">
                             <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
                                 <div class="pricing-block-one active-block">
                                     <div class="pricing-table">
                                         <div class="table-header" style="padding: 12px 0px 5px 0px; border: none;">
-                                            <h3>Fundamental</h3>
+                                            <h3>{{ $price->name }}</h3>
                                             <div class="price-box" style="margin-bottom: 0px;">
                                                 <span>Stake your USDT, BITCOIN, BUSD, LTC...</span>
-                                                <h2>0.29%</h2>
-                                                <p>Daily Profit</p>
+                                                <h2>{{ $price->noofrepeat }}+</h2>
+                                                <p>Duration</p>
                                             </div>
                                         </div>
                                         <div class="table-content">
                                             <ul class="clearfix">
-                                                <li>Minimum Deposit <b class="text-primary">$50.00</b></li>
-                                                <li>Maximum Deposit <b class="text-primary">$1,000.00</b></li>
-                                                <li>Total Profit <b class="text-primary">2%</b></li>
-                                                <li>Referral Bonus <b class="text-primary">3%</b></li>
+                                                <li>Minimum Deposit <b class="text-primary">${{ $price->minimum }}</b></li>
+                                                <li>Maximum Deposit <b class="text-primary">${{ $price->maximum }}</b></li>
+                                                <li>Total Profit <b class="text-primary">{{ $price->percentage * $price->noofrepeat }}%</b></li>
+                                                <li>Referral Bonus <b class="text-primary">{{ $price->refpercent}}%</b></li>
                                                 <li>Withdrawal <b class="text-primary">Weekly</b></li>
                                             </ul>
                                         </div>
@@ -644,7 +650,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
