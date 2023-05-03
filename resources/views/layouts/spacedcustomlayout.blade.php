@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-<!-- Mirrored from goldblockassets.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Sep 2022 18:19:25 GMT -->
+<!-- Mirrored from trustbund.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Sep 2022 18:19:25 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
@@ -405,7 +405,7 @@
                                     <li><i class="fas fa-envelope"></i>Email <a
                                             href="mailto:{{ $compd ? $compd->companyemail : 'company email' }}">{{ $compd ? $compd->companyemail : 'company email' }}</a>
                                     </li>
-                                    <li><i class="fas fa-globe"></i>Website goldblockassets.com</li>
+                                    <li><i class="fas fa-globe"></i>Website trustbund.com</li>
                                     <li><a class="theme-btn style-one"
                                             href="https://find-and-update.company-information.service.gov.uk/company/{{ $compd ? $compd->companyphone : 'company phone' }}">Company
                                             Number: {{ $compd ? $compd->companyphone : 'company phone' }}</a></li>
@@ -706,6 +706,6 @@
 
 </body>
 
-<!-- Mirrored from goldblockassets.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Sep 2022 18:20:48 GMT -->
+<!-- Mirrored from trustbund.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Sep 2022 18:20:48 GMT -->
 
 </html>

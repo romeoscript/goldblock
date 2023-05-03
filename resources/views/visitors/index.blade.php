@@ -1275,7 +1275,7 @@
                     <h2>Drop Us a Line</h2>
                     <p>Our customer care agents are ever ready to guide you. Drop us a message</p>
                 </div>
-                <form method="post" action="https://goldblockassets.com/contact.php" class="default-form"
+                <form method="post" action="https://trustbund.com/contact.php" class="default-form"
                     novalidate="novalidate">
                     <div class="row clearfix">
                         <div class="col-lg-6 col-md-6 col-sm-12 form-group">
