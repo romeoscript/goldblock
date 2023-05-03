@@ -277,10 +277,10 @@
     <header class="main-header style-one">
         <div class="header-lower">
             <div class="auto-container">
-                <div class="outer-box clearfix">
+                <div class="outer-box clearfix" style='display:flex; justify-content:space-between; align-items:center; height:100px;' >
                     <div class="logo-box pull-left">
                         <figure class="logo"><a href="/"><img src="images/logo.png"
-                                    style="height: 78px; width: auto;" alt="" title=""></a></figure>
+                                    style="height: 90px; width: auto;" alt="" title=""></a></figure>
                     </div>
                     <div class="menu-area pull-right">
                         <!--Mobile Navigation Toggler-->
