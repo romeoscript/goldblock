@@ -55,7 +55,7 @@ Note that you’ll see the terms:<i> FX, forex, foreign-exchange market, and cur
         	<p>Trading forex is similar to equity and crypto trading. Here are some steps to get yourself started on the forex trading journey.</p>
         	<ul>
         		<li>
-        			Set up an account: You will need a forex trading account at a brokerage to get started with forex trading. Future optimax financial management does not charge commissions. Instead, we make money through spreads (also known as pips) between the buying and selling prices.
+        			Set up an account: You will need a forex trading account at a brokerage to get started with forex trading. Trustbund financial management does not charge commissions. Instead, we make money through spreads (also known as pips) between the buying and selling prices.
         		</li>
         		<li>
         			Fund your account: The final step will be funding your wallet by transferring Bitcoin or any other cryptocurrency of your choice to it. Trading begins immediately deposit is confirmed and payments are made daily to your trading accounts. Cryptocurrency deposits are made and confirmed within 24 hours.
