@@ -28,7 +28,7 @@
   
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'><link rel="stylesheet" href="{{asset("style.css")}}">
-<script src="//code.tidio.co/plkdc3afyaarskcr31xdffixn3c6yy3m.js" async></script>
+
 <style>
             
             * {
@@ -224,7 +224,7 @@ input[type="radio"][class="myRadio"] {
     background-position: 50% 50%;
 }
   </style>
-  <script src="//code.tidio.co/plkdc3afyaarskcr31xdffixn3c6yy3m.js" async></script>
+
   </head>
       
   <body class="dark-theme">
@@ -584,7 +584,7 @@ input[type="radio"][class="myRadio"] {
    
         <footer class="footer" style="position: fixed;bottom:0;width:100%;">
             <div class="container-fluid clearfix">
-                <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2022 <a href="{{route('index')}}">TrustBund </a>. All rights reserved.</span>
+                <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © <span id="date"></span> <a href="{{route('index')}}">TrustBund </a>. All rights reserved.</span>
               <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"><i class="fa fa-user"></i> {{Auth::user()->name}}             </span>
             </div>
           </footer>            
@@ -778,10 +778,16 @@ $('document').ready(function () {
     });
 });
 </script>
-    
-    <!--Start of Tawk.to Script-->
 
-<!--End of Tawk.to Script-->    <!-- End custom js for this page -->
+<script>
+      const currentDate = new Date();
+      const fullYear = currentDate.getFullYear();
+
+      const dateElement = document.getElementById("date");
+      dateElement.innerText = fullYear;
+    </script>
+    
+    <script src="//code.tidio.co/pgqiy88b0idqqnu7o52f7rgxnnjswjms.js" async></script>
   </body>
 
 </html>

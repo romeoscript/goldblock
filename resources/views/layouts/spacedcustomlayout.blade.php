@@ -537,7 +537,7 @@
         <div class="footer-bottom">
             <div class="auto-container">
                 <div class="copyright">
-                    <p>&copy; 2017 - 2022 <a href="/">{{ $compd ? $compd->companyname : 'company name' }}</a> . All rights reserved.</p>
+                    <p>&copy; <span id="date"></span> <a href="/">{{ $compd ? $compd->companyname : 'company name' }}</a> . All rights reserved.</p>
                 </div>
             </div>
         </div>
@@ -556,21 +556,8 @@
     <script type="text/javascript" src="../translate.google.com/translate_a/elementa0d8.js?cb=googleTranslateElementInit">
     </script>
 
-    <!--Start of Tawk.to Script-->
-    {{-- <script type="text/javascript">
-        var Tawk_API = Tawk_API || {},
-            Tawk_LoadStart = new Date();
-        (function() {
-            var s1 = document.createElement("script"),
-                s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/603d3073385de407571b5c82/1evngaka7';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
-    </script> --}}
-    <script src="//code.tidio.co/b0ny6mm7v4aiidjnnsehrrqqkfbvahga.js" async></script>
+    
+<script src="//code.tidio.co/pgqiy88b0idqqnu7o52f7rgxnnjswjms.js" async></script>
     <!--End of Tawk.to Script-->
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/popper.min.js"></script>
@@ -702,6 +689,13 @@
                 });
             });
         });
+    </script>
+    <script>
+      const currentDate = new Date();
+      const fullYear = currentDate.getFullYear();
+
+      const dateElement = document.getElementById("date");
+      dateElement.innerText = fullYear;
     </script>
 
 </body>
