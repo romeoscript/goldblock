@@ -11,7 +11,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-    <title>Welcome | {{ $compd ? $compd->companyname : 'company name' }} | Bitcoin Investment | Cryptocurrency Investment | Etherium Investment</title>
+    <title>Welcome | {{ $compd ? $compd->companyname : 'company name' }} | Bitcoin Investment | Cryptocurrency
+        Investment | Etherium Investment</title>
 
     <!-- Fav Icon -->
     <link rel="icon" href="images/logo-icon-b.html" type="image/x-icon">
@@ -105,6 +106,19 @@
     <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
     <link rel="stylesheet" href="style.html">
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/64a407c6cc26a871b026447b/1h4gbso3n';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 
     <style>
         * {
@@ -277,7 +291,8 @@
     <header class="main-header style-one">
         <div class="header-lower">
             <div class="auto-container">
-                <div class="outer-box clearfix" style='display:flex; justify-content:space-between; align-items:center; height:100px;' >
+                <div class="outer-box clearfix"
+                    style='display:flex; justify-content:space-between; align-items:center; height:100px;'>
                     <div class="logo-box pull-left">
                         <figure class="logo"><a href="/"><img src="images/logo.png"
                                     style="height: 90px; width: auto;" alt="" title=""></a></figure>
@@ -305,22 +320,23 @@
 
                                     <li class="dropdown"><a href="#">Services</a>
                                         <ul>
-                                            <li><a href="{{route('retirement')}}">Retirement Planning</a></li>
-                                            <li><a href="{{route('realestate')}}">Real Estate & Investment Management</a></li>
-                                            <li><a href="{{route('cannabis')}}">Cannabis Investments</a></li>
-                                            <li><a href="{{route('cryptoplans')}}">Cryptocurrency Trading</a></li>
-                                            <li><a href="{{route('finacialplaning')}}">Financial Planning</a></li>
-                                            <li><a href="{{route('oilandgas')}}">Oil And Gas</a></li>
-                                            <li><a href="{{route('loansandgrant')}}">Loan</a></li>
+                                            <li><a href="{{ route('retirement') }}">Retirement Planning</a></li>
+                                            <li><a href="{{ route('realestate') }}">Real Estate & Investment
+                                                    Management</a></li>
+                                            <li><a href="{{ route('cannabis') }}">Cannabis Investments</a></li>
+                                            <li><a href="{{ route('cryptoplans') }}">Cryptocurrency Trading</a></li>
+                                            <li><a href="{{ route('finacialplaning') }}">Financial Planning</a></li>
+                                            <li><a href="{{ route('oilandgas') }}">Oil And Gas</a></li>
+                                            <li><a href="{{ route('loansandgrant') }}">Loan</a></li>
                                         </ul>
                                     </li>
-                                  
 
-                                    <li><a href=" {{route('faq')}}">FAQ's</a></li>
+
+                                    <li><a href=" {{ route('faq') }}">FAQ's</a></li>
 
                                     <li><a href="{{ route('contact') }}">Support</a></li>
-                                   
-                                    <li><a href="{{route('buybtc')}}">Digital Currency</a></li>
+
+                                    <li><a href="{{ route('buybtc') }}">Digital Currency</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -360,8 +376,8 @@
         <div class="close-btn"><i class="fas fa-times"></i></div>
 
         <nav class="menu-box">
-            <div class="nav-logo"><a href="/"><img src="images/logo.png"
-                        style="height: 60px; width: auto;" alt="" title=""></a></div>
+            <div class="nav-logo"><a href="/"><img src="images/logo.png" style="height: 60px; width: auto;"
+                        alt="" title=""></a></div>
             <div class="menu-outer">
                 <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
             </div>
@@ -370,7 +386,9 @@
                 <ul>
                     <li>Flat 41 Brookfield Farm, Curzon St, Lbstock, United Kingddom, LE67 6LA</li>
                     <li><a href="tel:045 667- 7547">045 667- 7547</a></li>
-                    <li><a href="mailto:{{ $compd ? $compd->companyemail : 'company email' }}">{{ $compd ? $compd->companyemail : 'company email' }}</a></li>
+                    <li><a
+                            href="mailto:{{ $compd ? $compd->companyemail : 'company email' }}">{{ $compd ? $compd->companyemail : 'company email' }}</a>
+                    </li>
                 </ul>
             </div>
 
@@ -421,10 +439,10 @@
                                     <ul class="list clearfix">
                                         <li><a href="{{ route('register') }}">Create Account</a></li>
                                         <li><a href="{{ route('login') }}">Login</a></li>
-                                        
-                                        <li><a href="{{route('terms')}}">Terms of Use</a></li>
-                                        <li><a href="{{route('legal')}}">Legal</a></li>
-                                        <li><a href="{{route('policy')}}">Privacy Policy</a></li>
+
+                                        <li><a href="{{ route('terms') }}">Terms of Use</a></li>
+                                        <li><a href="{{ route('legal') }}">Legal</a></li>
+                                        <li><a href="{{ route('policy') }}">Privacy Policy</a></li>
                                     </ul>
                                 </div>
 
@@ -438,11 +456,12 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="list clearfix">
-                                        <li><a href="{{route('services')}}">Retirement Planning</a></li>
-                                        <li><a href="{{route('realestate')}}">Real Estate & Investment Management</a></li>
-                                        <li><a href="{{route('cannabis')}}">Cannabis Investments</a></li>
-                                        <li><a href="{{route('cryptoplans')}}">Cryptocurrency Trading</a></li>
-                                        <li><a href="{{route('finacialplaning')}}">Financial Planning</a></li>
+                                        <li><a href="{{ route('services') }}">Retirement Planning</a></li>
+                                        <li><a href="{{ route('realestate') }}">Real Estate & Investment
+                                                Management</a></li>
+                                        <li><a href="{{ route('cannabis') }}">Cannabis Investments</a></li>
+                                        <li><a href="{{ route('cryptoplans') }}">Cryptocurrency Trading</a></li>
+                                        <li><a href="{{ route('finacialplaning') }}">Financial Planning</a></li>
                                     </ul>
                                 </div>
 
@@ -458,10 +477,10 @@
                                     <ul class="list clearfix">
                                         <li><a href="{{ route('about') }}">About Us</a></li>
                                         {{-- <li><a href="service.html">What We Offers</a></li> --}}
-                                        <li><a href=" {{route('faq')}}">FAQ's</a></li>
+                                        <li><a href=" {{ route('faq') }}">FAQ's</a></li>
                                         <li><a href="{{ route('login') }}">Our Plans</a></li>
                                         <li><a href="{{ route('contact') }}">Contact Us</a></li>
-                                        <li><a href="{{route('realestate')}}">Real Estate</a></li>
+                                        <li><a href="{{ route('realestate') }}">Real Estate</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -537,7 +556,9 @@
         <div class="footer-bottom">
             <div class="auto-container">
                 <div class="copyright">
-                    <p>&copy; <span id="date"></span> <a href="/">{{ $compd ? $compd->companyname : 'company name' }}</a> . All rights reserved.</p>
+                    <p>&copy; <span id="date"></span> <a
+                            href="/">{{ $compd ? $compd->companyname : 'company name' }}</a> . All rights
+                        reserved.</p>
                 </div>
             </div>
         </div>
@@ -556,8 +577,20 @@
     <script type="text/javascript" src="../translate.google.com/translate_a/elementa0d8.js?cb=googleTranslateElementInit">
     </script>
 
-    
-<script src="//code.tidio.co/pgqiy88b0idqqnu7o52f7rgxnnjswjms.js" async></script>
+
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/64a407c6cc26a871b026447b/1h4gbso3n';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
     <!--End of Tawk.to Script-->
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/popper.min.js"></script>
@@ -637,7 +670,7 @@
                 // Change font family and color
                 $("iframe").contents().find(
                         ".goog-te-menu2-item div, .goog-te-menu2-item:link div, .goog-te-menu2-item:visited div, .goog-te-menu2-item:active div, .goog-te-menu2 *"
-                        )
+                    )
                     .css({
                         'color': '#544F4B',
                         'font-family': 'Roboto',
@@ -671,7 +704,7 @@
                 // Change the iframe's box shadow
                 $(".goog-te-menu-frame").css('box-shadow',
                     '0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3)'
-                    );
+                );
 
 
 
@@ -691,11 +724,11 @@
         });
     </script>
     <script>
-      const currentDate = new Date();
-      const fullYear = currentDate.getFullYear();
+        const currentDate = new Date();
+        const fullYear = currentDate.getFullYear();
 
-      const dateElement = document.getElementById("date");
-      dateElement.innerText = fullYear;
+        const dateElement = document.getElementById("date");
+        dateElement.innerText = fullYear;
     </script>
 
 </body>

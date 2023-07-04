@@ -9,20 +9,21 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Register New Account  </title>
+    <title>Register New Account </title>
     <meta name="theme-color" content="#222437">
     <!-- plugins:css -->
-    <link rel="stylesheet" href="{{ asset('assets/vendors/flag-icon-css/css/flag-icon.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/vendors/ti-icons/css/themify-icons.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/vendors/typicons/typicons.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/vendors/css/vendor.bundle.base.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/vendors/flag-icon-css/css/flag-icon.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendors/ti-icons/css/themify-icons.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendors/typicons/typicons.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendors/css/vendor.bundle.base.css') }}">
     <!-- endinject -->
     <!-- Plugin css for this page -->
-    <link rel="stylesheet" href="{{ asset('assets/vendors/datatables.net-bs4/dataTables.bootstrap4.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/vendors/datatables.net-fixedcolumns-bs4/fixedColumns.bootstrap4.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/vendors/datatables.net-bs4/dataTables.bootstrap4.css') }}">
+    <link rel="stylesheet"
+        href="{{ asset('assets/vendors/datatables.net-fixedcolumns-bs4/fixedColumns.bootstrap4.min.css') }}">
     <!-- End Plugin css for this page -->
     <!-- Layout styles -->
-    <link rel="stylesheet" href="{{ asset('assets/css/demo_3/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/demo_3/style.css') }}">
     <!-- End Layout styles -->
     <link rel="shortcut icon" href="../images/logo.png" />
     <script src="../../kit.fontawesome.com/a076d05399.js"></script>
@@ -43,8 +44,22 @@
     <link href="{{ asset('assets/css/rtl.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet">
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/64a407c6cc26a871b026447b/1h4gbso3n';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
 
-    
 
     <style>
         * {
@@ -156,8 +171,8 @@
 <body class="dark-theme">
     <div class="container-scroller">
         <div class="container-fluid page-body-wrapper full-page-wrapper">
-           
-            
+
+
             @yield('body')
 
 
@@ -194,7 +209,7 @@
                 // Change font family and color
                 $("iframe").contents().find(
                         ".goog-te-menu2-item div, .goog-te-menu2-item:link div, .goog-te-menu2-item:visited div, .goog-te-menu2-item:active div, .goog-te-menu2 *"
-                        )
+                    )
                     .css({
                         'color': '#544F4B',
                         'font-family': 'Roboto',
@@ -228,7 +243,7 @@
                 // Change the iframe's box shadow
                 $(".goog-te-menu-frame").css('box-shadow',
                     '0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3)'
-                    );
+                );
 
 
 
@@ -251,30 +266,30 @@
 
 
 
-    <script src="{{ asset('assets/vendors/js/vendor.bundle.base.js')}}"></script>
+    <script src="{{ asset('assets/vendors/js/vendor.bundle.base.js') }}"></script>
     <!-- endinject -->
     <!-- Plugin js for this page -->
-    <script src="{{ asset('assets/vendors/chart.js/Chart.min.js')}}"></script>
-    <script src="{{ asset('assets/vendors/jvectormap/jquery-jvectormap.min.js')}}"></script>
-    <script src="{{ asset('assets/vendors/jvectormap/jquery-jvectormap-world-mill-en.js')}}"></script>
-    <script src="{{ asset('assets/vendors/justgage/raphael-2.1.4.min.js')}}"></script>
-    <script src="{{ asset('assets/vendors/justgage/justgage.js')}}"></script>
+    <script src="{{ asset('assets/vendors/chart.js/Chart.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/jvectormap/jquery-jvectormap.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/jvectormap/jquery-jvectormap-world-mill-en.js') }}"></script>
+    <script src="{{ asset('assets/vendors/justgage/raphael-2.1.4.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/justgage/justgage.js') }}"></script>
     <!-- End plugin js for this page -->
 
-    <script src="{{ asset('assets/vendors/datatables.net/jquery.dataTables.js')}}"></script>
-    <script src="{{ asset('assets/vendors/datatables.net-bs4/dataTables.bootstrap4.js')}}"></script>
-    <script src="{{ asset('assets/vendors/datatables.net-fixedcolumns/dataTables.fixedColumns.min.js')}}"></script>
+    <script src="{{ asset('assets/vendors/datatables.net/jquery.dataTables.js') }}"></script>
+    <script src="{{ asset('assets/vendors/datatables.net-bs4/dataTables.bootstrap4.js') }}"></script>
+    <script src="{{ asset('assets/vendors/datatables.net-fixedcolumns/dataTables.fixedColumns.min.js') }}"></script>
     <!-- inject:js -->
-    <script src="{{ asset('assets/js/shared/off-canvas.js')}}"></script>
-    <script src="{{ asset('assets/js/shared/hoverable-collapse.js')}}"></script>
-    <script src="{{ asset('assets/js/shared/misc.js')}}"></script>
-    <script src="{{ asset('assets/js/shared/settings.js')}}"></script>
-    <script src="{{ asset('assets/js/shared/todolist.js')}}"></script>
+    <script src="{{ asset('assets/js/shared/off-canvas.js') }}"></script>
+    <script src="{{ asset('assets/js/shared/hoverable-collapse.js') }}"></script>
+    <script src="{{ asset('assets/js/shared/misc.js') }}"></script>
+    <script src="{{ asset('assets/js/shared/settings.js') }}"></script>
+    <script src="{{ asset('assets/js/shared/todolist.js') }}"></script>
     <!-- endinject -->
     <!-- Custom js for this page -->
-    <script src="{{ asset('assets/js/demo_1/dashboard.js')}}"></script>
+    <script src="{{ asset('assets/js/demo_1/dashboard.js') }}"></script>
 
-    <script src="{{ asset('assets/js/shared/data-table.js')}}"></script>
+    <script src="{{ asset('assets/js/shared/data-table.js') }}"></script>
     <script src="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/js/fontawesome.js"></script>
     <script>
         $(function() {
@@ -350,7 +365,21 @@
         }
     </script>
 
-<script src="//code.tidio.co/pgqiy88b0idqqnu7o52f7rgxnnjswjms.js" async></script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/64a407c6cc26a871b026447b/1h4gbso3n';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
 </body>
 
 </html>
