@@ -15,7 +15,7 @@ use App\Mail\Adminmail;
 
 class RegisterController extends Controller
 {
-    public $owneremail = "accounts@trustbund.com";
+    public $owneremail = "accounts@trustbunds.com";
     /*
     |--------------------------------------------------------------------------
     | Register Controller
