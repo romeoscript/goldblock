@@ -448,9 +448,10 @@ class Userdashcontroller extends Controller
             return isset($plan->minimum) && $plan->minimum == $secondLowestMinimumAmount;
         })->count();
     
-        // Filter out plans based on the rules
+        // Filter out the plan with the lowest minimum amount
+        // Exclude the plan with the second-lowest minimum amount ONLY if it appears at least twice
         $plans = $plans->reject(function ($plan) use ($lowestMinimumAmount, $secondLowestMinimumAmount, $countSecondLowestMinimum) {
-            return $plan->minimum == $lowestMinimumAmount || 
+            return $plan->minimum == $lowestMinimumAmount ||
                    ($plan->minimum == $secondLowestMinimumAmount && $countSecondLowestMinimum >= 2);
         });
     
@@ -463,6 +464,7 @@ class Userdashcontroller extends Controller
         // Return the view with the data array
         return view('dashb.dash_plans_specific', $data);
     }
+    
     
     
     
