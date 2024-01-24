@@ -424,19 +424,60 @@ class Userdashcontroller extends Controller
         return view('dashb.dashb_plans_package', $data);
     }
 
-
-
-
     public function plan_specific(Request $req)
     {
         $deplan = $req->plan;
         $plans = Investmentplan::where('type', $deplan)->get();
+    
+        // Retrieve all investments for the logged-in user
+        $all_investment = Investment::where('userid', $this->logged_in_user()->id)->get();
+    
+        // Extract minimums from all investments and count their occurrences
+        $minimumsInInvestments = $all_investment->mapWithKeys(function ($item) use ($plans) {
+            $plan = $plans->firstWhere('name', $item->investmentplan);
+            return [$plan->minimum => isset($plan->minimum)];
+        })->filter()->keys()->sort()->values();
+    
+        // Find the lowest and second-lowest minimum amounts
+        $lowestMinimumAmount = $minimumsInInvestments->first();
+        $secondLowestMinimumAmount = $minimumsInInvestments->slice(1)->first();
+    
+        // Count occurrences of the second-lowest minimum
+        $countSecondLowestMinimum = $all_investment->filter(function ($item) use ($plans, $secondLowestMinimumAmount) {
+            $plan = $plans->firstWhere('name', $item->investmentplan);
+            return isset($plan->minimum) && $plan->minimum == $secondLowestMinimumAmount;
+        })->count();
+    
+        // Filter out plans based on the rules
+        $plans = $plans->reject(function ($plan) use ($lowestMinimumAmount, $secondLowestMinimumAmount, $countSecondLowestMinimum) {
+            return $plan->minimum == $lowestMinimumAmount || 
+                   ($plan->minimum == $secondLowestMinimumAmount && $countSecondLowestMinimum >= 2);
+        });
+    
+        // Prepare the data array to be passed to the view
         $data = [];
-        $data['title'] = "$deplan  Investment Plans";
+        $data['title'] = "$deplan Investment Plans";
         $data['plans'] = $plans;
-
+        $data['all_investment'] = $all_investment; // Add all investments to the data array
+    
+        // Return the view with the data array
         return view('dashb.dash_plans_specific', $data);
     }
+    
+    
+    
+
+
+    // public function plan_specific(Request $req)
+    // {
+    //     $deplan = $req->plan;
+    //     $plans = Investmentplan::where('type', $deplan)->get();
+    //     $data = [];
+    //     $data['title'] = "$deplan  Investment Plans";
+    //     $data['plans'] = $plans;
+
+    //     return view('dashb.dash_plans_specific', $data);
+    // }
 
 
 

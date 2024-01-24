@@ -20,6 +20,8 @@
     <!-- Main content -->
     <section class="content" style="margin-top:5%">
         <!-- START Card With Image -->
+        {{$all_investment}} 
+         <!-- {{$plans}} -->
         <div class="row">
             @if (isset($plans) && $plans->count() > 0)
                 @foreach ($plans as $plan) 
