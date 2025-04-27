@@ -106,7 +106,18 @@
     <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
     <link rel="stylesheet" href="style.html">
-    <script src="//code.tidio.co/hp4lim95ncjumkqcqfnlsk2vcopicghj.js" async></script>
+<!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+var _smartsupp = _smartsupp || {};
+_smartsupp.key = '6821c504f538d1060ffcd09b85e7f8e42157ddee';
+window.smartsupp||(function(d) {
+  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  c.type='text/javascript';c.charset='utf-8';c.async=true;
+  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+})(document);
+</script>
+<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
 
     <style>
         * {
@@ -566,7 +577,7 @@
     </script>
 
 
-    <script src="//code.tidio.co/hp4lim95ncjumkqcqfnlsk2vcopicghj.js" async></script>
+  
     <!--End of Tawk.to Script-->
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/popper.min.js"></script>
