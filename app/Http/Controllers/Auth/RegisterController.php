@@ -82,7 +82,7 @@ class RegisterController extends Controller
         $finance_add= new Fund();
         $finance_add->userid = $newuser->id;
         $finance_add->save();
-        $newuser->attachRole('Superadministrator');
+        $newuser->attachRole('user');
 
         if (isset($data['refid'])) {
             # code...
